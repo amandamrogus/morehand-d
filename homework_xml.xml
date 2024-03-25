@@ -1,0 +1,4023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sir Thomas More</title>
+                <author>Hand D</author>
+                <author>
+                    <name>
+                        <persName>Shakespeare</persName>
+                    </name>
+                </author>
+                <editor>
+                    <name>
+                        <persName>Amanda Marie Rogus</persName>
+                    </name>
+                    s
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>This material to follow is a three-part series to compare the modern transcription, initial
+                    transcription from
+                    <persName>Sir Edward Maunde Thompson</persName>
+                    at the <placeName>British Library</placeName>, and a look at rhetorial
+                    shifts in spelling and punctuation. This conglomerate of work is a way to take the past research
+                    that has been staticly
+                    transcribed of for several years and concoct a method of direct comparison.Simply put, this work
+                    scrutinizes the four
+                    leaves of the <persName>Sir Thomas More</persName> manuscript that are thought to be written by Hand
+                    D (suspected writing
+                    of <persName>William Shakespeare</persName>). This is one of the most discussed works in the early
+                    modern paleographic field
+                    so having the opportunity to engage in that ongoing conversation will prove fruitful for the early
+                    modern dramatic community.
+                    It is by placing this material in conversation with one another that we gain a deeper understanding
+                    for the characters within
+                    the scripted characters left behind.
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The manuscript is currrently housed at the <placeName>British Library</placeName>. The manuscript for
+                    the <persName>Sir Thomas
+                        More
+                    </persName> play is perhaps the most universal methodlogy we have to attain an understanding of
+                    paleography from
+                    <persName>Shakespeare</persName>
+                    given the limited content we have access to in the signatures that remain. The physical document
+                    is in very good condition but more importantly it is a clean set of four pages simultaneous noting
+                    handwriting in succession.This
+                    manuscript holds a higher topic of debate than any other pages throughout the dramatic manuscript
+                    and interestingly enough many
+                    scholars are more interested in who wrote it rather than what the content tells us dramatically. In
+                    a sense, this set of manuscript
+                    paged is the sole dramatic piece by <persName>Shakespeare</persName> that prioritizes authorship to
+                    such a degree that the story
+                    <persName>Shakespeare</persName>
+                    is telling becomes secondary. Between footnotes and internal analysis this digitized model will
+                    elucidate on what this means and what may be gleaned from unpacking this form as a historian,
+                    paleographer, and practitioner.
+                    <bibl>
+                        <title>
+                            <persName>Sir Thomas More</persName>
+                            manuscript collection
+                        </title>
+                        <author>
+                            <persName>William Shakespeare</persName>
+                        </author>
+                        <publisher>Manuscript Collection housed at the
+                            <placeName>British Library</placeName>
+                        </publisher>
+                        <date>1516</date>
+                    </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="editorial-intro">
+                <p>This manuscript is perhaps one of the most talked about yet likewise most
+                    misunderstood of documents in the early modern dramatic canon. Historically,
+                    this has become know as the manuscript with many hands and the Hand D persona
+                    is thought to belong to that of playwright <persName>William Shakespeare</persName>.
+                    Comparing this materiality to that of the handwriting on legal documents shows this
+                    Hand D to truly be <persName>Shakespeare</persName>. This text is signifigant because
+                    it is the only surviving consecutive pages and fully fleshed content we have surviving
+                    in <persName>Shakespeare's</persName> hand. Other than this material we only have a
+                    handful of signatures that remain. This work aligns this material in a unique historical
+                    context as it speaks to the process of material culture but also offers a modernization
+                    to make it accessible for those who would not find secretary hand attainable to decipher.
+                    This moment has the past speak in tandem with the present to better understand both the
+                    style of the time as well as the historical context. This is the only direct moment in
+                    <persName>Shakespeare's</persName>
+                    hand we have dramatically, and for a playwright so
+                    well known to have limited access to this handwritten piece neglects a major archival
+                    wonderment that this work will unpack and present.
+                </p>
+
+                <p>In this edition, I am trying to create a direct editorial comparison of the current
+                    transcriptions and modernize the spelling to make it more attainableand approachable
+                    to the reader. Since there is the ability to click between 3 separate instances,
+                    readers can see paleographic notes as well as understandthe articulation of the meaning
+                    within a modern context. This will widen the access of the information for people who do
+                    not understand paleography to better understand what is happening in the dramatic text
+                    to glean a better sense of what the text may be able to offer them about the life of
+                    historical figure <persName>Sir Thomas More</persName> but also drama in the early modern
+                    period as a whole. What readers get out of this edition is access and deeper understanding.
+                    You do not need to be an archivist or paleographer to appreciate this text with this
+                    particular edition. In this way, this work enlightens a brand new understanding of a text
+                    that they otherwise would not be able to fully understand. The meaning of the scene comes
+                    from the beauty of the words and without comprehension, the manuscript will not tell that
+                    story.
+                </p>
+
+                <p>The process for editing this took a lot of time to concoct exactly what presentation would
+                    most suit my intended audience to widen the sphere of accessibility. The main editorial
+                    decisions came from a desire to make the unreadible readable to both the common eye and the
+                    high level paleographer. For this reason, my work is divided into three separate segments.
+                    The <persName>Maunde</persName> transcription, my transcription to compare, and a modernized
+                    spelling and puncutuation version. These can be clicked back and forth to see the variability
+                    and comprehend the history and changing of the text. Each transcription has a focus, the
+                    <persName>Maunde</persName>
+                    is to digitize the undigitized as a point of comparison and the
+                    transcription of my own work is to speak to the paleographers in the audience. The modern
+                    rendition should be as accessible as possible to everyone else. I tried to make that section
+                    speak to a sense of continuity, clarity, and the modern reader. I did not change wording or
+                    context but I did edit spelling for clarity. With these spelling situations, the text becomes
+                    so clear that any reader can perceive what is occurring in the scene. Most importantly, this
+                    project is designed in such a way that asks about the universality of the material at hand to
+                    best realize and understand context, situation, materiality, history, and language of a very
+                    intriguing manuscript.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="title">
+                <head>Sir Thomas More Play: Hand D</head>
+                <head type="author">William Shakespeare</head>
+                <head type="Script_Description">Sir Thomas More Hand D Script</head>
+            </div>
+
+            <div>
+                <head type="MS_Details">Harley MS 7368, folio 8 recto</head>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>lincolne</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>Peace
+                        <choice>
+                            <orig>heare</orig>
+                            <reg>hear</reg>
+                        </choice>
+                        me, he that will not see [a red] hearing
+                        <choice>
+                            <orig>a[t]</orig>
+                            <reg>at</reg>
+                        </choice>
+                        a
+                        <choice>
+                            <orig>harry</orig>
+                            <reg>hairy</reg>
+                        </choice>
+                        grote, butter at a
+                        <choice>
+                            <orig>leven</orig>
+                            <reg>eleven</reg>
+                        </choice>
+                        pence a p[ounde meale at]
+                        <choice>
+                            <orig>nyne</orig>
+                            <reg>nine</reg>
+                        </choice>
+                        shillings a
+                        Bushell and Beeff at fower [nobles a stone
+                        <choice>
+                            <orig>lyst</orig>
+                            <reg>list</reg>
+                        </choice>
+                        ] to [me]
+                    </p>
+                </sp>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">geo betts</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>yt</orig>
+                            <reg>it</reg>
+                        </choice>
+                        will Come to the
+                        <choice>
+                            <orig>passe</orig>
+                            <reg>pass</reg>
+                        </choice>
+                        <choice>
+                            <orig>yf</orig>
+                            <reg>if</reg>
+                        </choice>
+                        <choice>
+                            <orig>stra[ingers</orig>
+                            <reg>strangers</reg>
+                        </choice>
+                        be
+                        <choice>
+                            <orig>su]ffrd</orig>
+                            <reg>suffered</reg>
+                        </choice>
+                        <choice>
+                            <orig>marke</orig>
+                            <reg>mark</reg>
+                        </choice>
+                        him
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>linco</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>our
+                        <choice>
+                            <orig>Countrie</orig>
+                            <reg>Country</reg>
+                        </choice>
+                        is a great eating Country,
+                        <choice>
+                            <orig>argo</orig>
+                            <reg>ergo</reg>
+                        </choice>
+                        they
+                        <choice>
+                            <orig>eate</orig>
+                            <reg>eat</reg>
+                        </choice>
+                        more in
+                        our
+                        <choice>
+                            <orig>Countrey</orig>
+                            <reg>Country</reg>
+                        </choice>
+                        then they do in their
+                        <choice>
+                            <orig>owne</orig>
+                            <reg>own</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">betts
+                                <choice>
+                                    <orig>clow</orig>
+                                    <reg>clown</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>by half penny
+                        <choice>
+                            <orig>loff</orig>
+                            <reg>left</reg>
+                        </choice>
+                        a day troy
+                        <choice>
+                            <orig>waight</orig>
+                            <reg>weight</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>linc</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>they bring in
+                        <choice>
+                            <orig>straing</orig>
+                            <reg>straying</reg>
+                        </choice>
+                        <choice>
+                            <orig>rootes</orig>
+                            <reg>roots</reg>
+                        </choice>
+                        , which is merely to the
+                        <choice>
+                            <orig>vndoing</orig>
+                            <reg>undoing</reg>
+                        </choice>
+                        of poor
+                        <choice>
+                            <orig>prentizes</orig>
+                            <reg>prentice</reg>
+                        </choice>
+                        , for
+                        <choice>
+                            <orig>whatſ</orig>
+                            <reg>what's</reg>
+                        </choice>
+                        [a
+                        <choice>
+                            <orig>watrie</orig>
+                            <reg>watery</reg>
+                        </choice>
+                        ] or sorry [px]
+                        <choice>
+                            <orig>snyp</orig>
+                            <reg>snip</reg>
+                        </choice>
+                        to a good
+                        <choice>
+                            <orig>hart</orig>
+                            <reg>heart</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Williamson">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Williamson">
+                                <choice>
+                                    <orig>willian</orig>
+                                    <reg>williamson</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>trash trash ; they breed sore eyes and
+                        <choice>
+                            <orig>tis</orig>
+                            <reg>it is</reg>
+                        </choice>
+                        enough to infect the
+                        <choice>
+                            <orig>Cyttyy</orig>
+                            <reg>City</reg>
+                        </choice>
+                        <choice>
+                            <orig>w[t]</orig>
+                            <reg>with</reg>
+                        </choice>
+                        the palsey
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>lin</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>nay
+                        <choice>
+                            <orig>yt</orig>
+                            <reg>it</reg>
+                        </choice>
+                        infected
+                        <choice>
+                            <orig>yt</orig>
+                            <reg>it</reg>
+                        </choice>
+                        <choice>
+                            <orig>w[t]</orig>
+                            <reg>with</reg>
+                        </choice>
+                        the palsey, for
+                        <choice>
+                            <orig>theise</orig>
+                            <reg>these</reg>
+                        </choice>
+                        <choice>
+                            <orig>basterdſ</orig>
+                            <reg>bastards</reg>
+                        </choice>
+                        of dung
+                        as you
+                        <choice>
+                            <orig>knowe</orig>
+                            <reg>know</reg>
+                        </choice>
+                        they
+                        <choice>
+                            <orig>growe</orig>
+                            <reg>grow</reg>
+                        </choice>
+                        in
+                        <choice>
+                            <orig>Dvng</orig>
+                            <reg>Dung</reg>
+                        </choice>
+                        <choice>
+                            <orig>haue</orig>
+                            <reg>have</reg>
+                        </choice>
+                        infected
+                        <choice>
+                            <orig>vs</orig>
+                            <reg>us</reg>
+                        </choice>
+                        , and
+                        <choice>
+                            <orig>yt</orig>
+                            <reg>it</reg>
+                        </choice>
+                        our
+                        <choice>
+                            <orig>infeccion</orig>
+                            <reg>infection</reg>
+                        </choice>
+                        will make the
+                        <choice>
+                            <orig>Cytty</orig>
+                            <reg>City</reg>
+                        </choice>
+                        shake [px]tly Comes through
+                        the eating [px]
+                        <choice>
+                            <orig>snyps</orig>
+                            <reg>snips</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">clown. betts</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>trewe</orig>
+                            <reg>true</reg>
+                        </choice>
+                        and
+                        <choice>
+                            <orig>pumpions</orig>
+                            <reg>pumpkins</reg>
+                        </choice>
+                        <choice>
+                            <orig>togeather</orig>
+                            <reg>together</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <stage>ENTER
+                    <choice>
+                        <orig>Seriant</orig>
+                        <reg>Servant</reg>
+                    </choice>
+                </stage>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">betts</name>
+                        </hi>
+                    </speaker>
+                    <p>what say [
+                        <choice>
+                            <orig>ye</orig>
+                            <reg>you</reg>
+                        </choice>
+                        to the] mercy of the king do
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        refuse
+                        <choice>
+                            <orig>y[t]</orig>
+                            <reg>it</reg>
+                        </choice>
+                        Lin
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        [
+                        <choice>
+                            <orig>woud</orig>
+                            <reg>would</reg>
+                        </choice>
+                        <choice>
+                            <orig>haue</orig>
+                            <reg>have</reg>
+                        </choice>
+                        <choice>
+                            <orig>vs</orig>
+                            <reg>us</reg>
+                        </choice>
+                        ]
+                        <choice>
+                            <orig>vppon</orig>
+                            <reg>upon</reg>
+                        </choice>
+                        <choice>
+                            <orig>thipp</orig>
+                            <reg>this</reg>
+                        </choice>
+                        <choice>
+                            <orig>woold</orig>
+                            <reg>would</reg>
+                        </choice>
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        no marry do we not, we
+                        accept of the
+                        <choice>
+                            <orig>kingſ</orig>
+                            <reg>king's</reg>
+                        </choice>
+                        mercy but
+                        <choice>
+                            <orig>wee</orig>
+                            <reg>we</reg>
+                        </choice>
+                        <choice>
+                            <orig>showe</orig>
+                            <reg>show</reg>
+                        </choice>
+                        no mercy
+                        <choice>
+                            <orig>vppo[n]</orig>
+                            <reg>upon</reg>
+                        </choice>
+                        the
+                        <choice>
+                            <orig>st[rangers]</orig>
+                            <reg>strangers</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Servant">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Servant">
+                                <choice>
+                                    <orig>seriaunt</orig>
+                                    <reg>servant</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        <choice>
+                            <orig>ar</orig>
+                            <reg>are</reg>
+                        </choice>
+                        the [simplest]
+                        <choice>
+                            <orig>thingſ</orig>
+                            <reg>things</reg>
+                        </choice>
+                        that
+                        <choice>
+                            <orig>eu'</orig>
+                            <reg>you</reg>
+                        </choice>
+                        stood in such a question
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>Lin</orig>
+                                    <reg>Lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>how say
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        now prenti
+                        <choice>
+                            <orig>prentisses</orig>
+                            <reg>prentices</reg>
+                        </choice>
+                        <choice>
+                            <orig>symple</orig>
+                            <reg>simple</reg>
+                        </choice>
+                        <choice>
+                            <orig>downe</orig>
+                            <reg>down</reg>
+                        </choice>
+                        <choice>
+                            <orig>w[th]</orig>
+                            <reg>with</reg>
+                        </choice>
+                        him
+                        all
+                        <choice>
+                            <orig>prentisses</orig>
+                            <reg>prentices</reg>
+                        </choice>
+                        <choice>
+                            <orig>symple</orig>
+                            <reg>simple</reg>
+                        </choice>
+                        <choice>
+                            <orig>prentisses</orig>
+                            <reg>prentices</reg>
+                        </choice>
+                        <choice>
+                            <orig>symple</orig>
+                            <reg>simple</reg>
+                        </choice>
+                        .
+                    </p>
+                </sp>
+
+                <stage>
+                    <ref target="Theatre Directions">Enter the
+                        <choice>
+                            <orig>L</orig>
+                            <reg>Lord</reg>
+                        </choice>
+                        <choice>
+                            <orig>maier</orig>
+                            <reg>mayor</reg>
+                        </choice>
+                        Surrey Shrewsbury
+                    </ref>
+                </stage>
+
+                <sp who="Mayor">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Mayor">
+                                <choice>
+                                    <orig>MAIOR</orig>
+                                    <reg>MAYOR</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>hold in the
+                        <choice>
+                            <orig>kingſ</orig>
+                            <reg>kings</reg>
+                        </choice>
+                        name hold
+                    </p>
+                </sp>
+
+                <sp who="Surrey">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Surrey">surrey</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>frendſ</orig>
+                            <reg>friends</reg>
+                        </choice>
+                        masters
+                        <choice>
+                            <orig>Countreymen</orig>
+                            <reg>Countrymen</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Mayor">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Mayor">
+                                <choice>
+                                    <orig>mayer</orig>
+                                    <reg>mayor</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>peace how peace
+                        <choice>
+                            <orig>l</orig>
+                            <reg>Lincoln</reg>
+                        </choice>
+                        [sh]
+                        <choice>
+                            <orig>Charg</orig>
+                            <reg>Charge</reg>
+                        </choice>
+                        <orig>yo[u]</orig>
+                        <reg>you</reg>
+                        keep the peace
+                    </p>
+                </sp>
+
+                <sp who="Shrewsberry">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Shrewsberry">
+                                <choice>
+                                    <orig>shro</orig>
+                                    <reg>shrewsberry</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <ref target="Munday_Edits">my
+                            <choice>
+                                <orig>maisters</orig>
+                                <reg>masters</reg>
+                            </choice>
+                            <choice>
+                                <orig>Countreymen</orig>
+                                <reg>Countrymen</reg>
+                            </choice>
+                            Countreymen
+                        </ref>
+                    </p>
+                </sp>
+
+                <sp who="Williamson">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Williamson">williamson</name>
+                        </hi>
+                    </speaker>
+                    <p>The noble
+                        <choice>
+                            <orig>Earle</orig>
+                            <reg>Earl</reg>
+                        </choice>
+                        of
+                        <choice>
+                            <orig>Shrowsbury</orig>
+                            <reg>Shrewsberry</reg>
+                        </choice>
+                        <choice>
+                            <orig>lettſ</orig>
+                            <reg>let's</reg>
+                        </choice>
+                        hear him
+                    </p>
+                </sp>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">
+                                <choice>
+                                    <orig>ge</orig>
+                                    <reg>geo</reg>
+                                </choice>
+                                <choice>
+                                    <orig>bettſ</orig>
+                                    <reg>betts</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>weele</orig>
+                            <reg>we'll</reg>
+                        </choice>
+                        <choice>
+                            <orig>heare</orig>
+                            <reg>hear</reg>
+                        </choice>
+                        the
+                        <choice>
+                            <orig>earle</orig>
+                            <reg>earl</reg>
+                        </choice>
+                        of Surrey
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>linc</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>the
+                        <choice>
+                            <orig>earle</orig>
+                            <reg>earl</reg>
+                        </choice>
+                        of
+                        <choice>
+                            <orig>Shrowsbury</orig>
+                            <reg>Shrewsberry</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Betts">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Betts">
+                                <choice>
+                                    <orig>bettſ</orig>
+                                    <reg>betts</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>weele</orig>
+                            <reg>we'll</reg>
+                        </choice>
+                        <choice>
+                            <orig>heare</orig>
+                            <reg>hear</reg>
+                        </choice>
+                        both
+                    </p>
+                </sp>
+
+                <sp who="Ensemble">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Ensemble">all</name>
+                        </hi>
+                    </speaker>
+                    <p>both both both both</p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>linc</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>Peace I say peace
+                        <choice>
+                            <orig>ar</orig>
+                            <reg>are</reg>
+                        </choice>
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        men of
+                        <choice>
+                            <orig>Wisdome</orig>
+                            <reg>Wisdom</reg>
+                        </choice>
+                        <choice>
+                            <orig>[ar]</orig>
+                            <reg>are</reg>
+                        </choice>
+                        or
+                        what
+                        <choice>
+                            <orig>ar</orig>
+                            <reg>are</reg>
+                        </choice>
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Surrey">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Surrey">
+                                <choice>
+                                    <orig>surr</orig>
+                                    <reg>surrey</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>[But] what
+                        <choice>
+                            <orig>yo[u]</orig>
+                            <reg>you</reg>
+                        </choice>
+                        <choice>
+                            <orig>haue</orig>
+                            <reg>have</reg>
+                        </choice>
+                        them but not men of
+                        <choice>
+                            <orig>Wisdome</orig>
+                            <reg>Wisdom</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Ensemble">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Ensemble">all</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>weele</orig>
+                            <reg>we'll</reg>
+                        </choice>
+                        not
+                        <choice>
+                            <orig>heare</orig>
+                            <reg>hear</reg>
+                        </choice>
+                        my
+                        <choice>
+                            <orig>L</orig>
+                            <reg>Lord</reg>
+                        </choice>
+                        of Surrey, [ ] no no no no no
+                        <choice>
+                            <orig>Shrewsbur</orig>
+                            <reg>Shrewsberry</reg>
+                        </choice>
+                        <choice>
+                            <orig>shr</orig>
+                            <reg>sir</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="More">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#More">
+                                <choice>
+                                    <orig>moor</orig>
+                                    <reg>More</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>whiles</orig>
+                            <reg>while's</reg>
+                        </choice>
+                        the
+                        <choice>
+                            <orig>ar</orig>
+                            <reg>are</reg>
+                        </choice>
+                        <choice>
+                            <orig>ore</orig>
+                            <reg>or</reg>
+                        </choice>
+                        the
+                        <choice>
+                            <orig>banck</orig>
+                            <reg>bank</reg>
+                        </choice>
+                        of their
+                        <choice>
+                            <orig>obedyenc</orig>
+                            <reg>obedience</reg>
+                        </choice>
+                        thus will they
+                        <choice>
+                            <orig>bere</orig>
+                            <reg>bare</reg>
+                        </choice>
+                        <choice>
+                            <orig>downee</orig>
+                            <reg>down</reg>
+                        </choice>
+                        all
+                        <choice>
+                            <orig>th[ings]</orig>
+                            <reg>things</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Lincoln">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Lincoln">
+                                <choice>
+                                    <orig>linc</orig>
+                                    <reg>lincoln</reg>
+                                </choice>
+                            </name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>Shreiff</orig>
+                            <reg>Sheriff</reg>
+                        </choice>
+                        <choice>
+                            <orig>moor</orig>
+                            <reg>More</reg>
+                        </choice>
+                        <choice>
+                            <orig>speakes</orig>
+                            <reg>speaks</reg>
+                        </choice>
+                        shall we
+                        <choice>
+                            <orig>heare</orig>
+                            <reg>hear</reg>
+                        </choice>
+                        <choice>
+                            <orig>shreef</orig>
+                            <reg>sheriff</reg>
+                        </choice>
+                        moor
+                        <choice>
+                            <orig>speake</orig>
+                            <reg>speak</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <sp who="Doll">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Doll">doll</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <ref target="McKellen_Notes">
+                            <choice>
+                                <orig>Lettſ</orig>
+                                <reg>Let's</reg>
+                            </choice>
+                            <choice>
+                                <orig>heare</orig>
+                                <reg>hear</reg>
+                            </choice>
+                            him [a]
+                            <choice>
+                                <orig>keepes</orig>
+                                <reg>keeps</reg>
+                            </choice>
+                            a
+                            <choice>
+                                <orig>plentyfull</orig>
+                                <reg>plentiful</reg>
+                            </choice>
+                            <choice>
+                                <orig>shrevaltry</orig>
+                                <reg>chivalry</reg>
+                            </choice>
+                            , and a made my
+                            Brother
+                            <choice>
+                                <orig>Arther</orig>
+                                <reg>Arthur</reg>
+                            </choice>
+                            watch
+                            <choice>
+                                <orig>[ins]</orig>
+                                <reg>his</reg>
+                            </choice>
+                            <choice>
+                                <orig>Seriant</orig>
+                                <reg>Servant</reg>
+                            </choice>
+                            <choice>
+                                <orig>S[af]es</orig>
+                                <reg>Saves</reg>
+                            </choice>
+                            yeoman
+                            <choice>
+                                <orig>letſ</orig>
+                                <reg>let's</reg>
+                            </choice>
+                            <choice>
+                                <orig>heare</orig>
+                                <reg>hear</reg>
+                            </choice>
+                            <choice>
+                                <orig>shreeve</orig>
+                                <reg>sheriff</reg>
+                            </choice>
+                            <choice>
+                                <orig>moore</orig>
+                                <reg>More</reg>
+                            </choice>
+                        </ref>
+                    </p>
+                </sp>
+
+                <sp who="Ensemble">
+                    <speaker>
+                        <hi rend="caps">
+                            <name type="person" ref="#Ensemble">all</name>
+                        </hi>
+                    </speaker>
+                    <p>
+                        <choice>
+                            <orig>Shriue</orig>
+                            <reg>sheriff</reg>
+                        </choice>
+                        <choice>
+                            <orig>moor</orig>
+                            <reg>More</reg>
+                        </choice>
+                        <choice>
+                            <orig>moor</orig>
+                            <reg>More</reg>
+                        </choice>
+                        <choice>
+                            <orig>moore</orig>
+                            <reg>More</reg>
+                        </choice>
+                        <choice>
+                            <orig>Shreue</orig>
+                            <reg>Sheriff</reg>
+                        </choice>
+                        <choice>
+                            <orig>moore</orig>
+                            <reg>More</reg>
+                        </choice>
+                    </p>
+                </sp>
+
+                <div>
+                    <head type="MS_Details">Harley MS 7368, folio 8 verso</head>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>[even] by the rule
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>haue</orig>
+                                <reg>have</reg>
+                            </choice>
+                            among
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>sealues</orig>
+                                <reg>salutes</reg>
+                            </choice>
+                            [
+                            <choice>
+                                <orig>comand</orig>
+                                <reg>command</reg>
+                            </choice>
+                            <choice>
+                                <orig>sti]ll</orig>
+                                <reg>still</reg>
+                            </choice>
+                            audience
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>[Surrey
+                            <choice>
+                                <orig>S]ury</orig>
+                                <reg>Surrey</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>[
+                            <choice>
+                                <orig>moor</orig>
+                                <reg>More</reg>
+                            </choice>
+                            <choice>
+                                <orig>moor</orig>
+                                <reg>More</reg>
+                            </choice>
+                            ]
+                        </p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">
+                                    <choice>
+                                        <orig>lincolne</orig>
+                                        <reg>lincoln</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>bettſ</orig>
+                                <reg>betts</reg>
+                            </choice>
+                            peace peace
+                            <choice>
+                                <orig>scilens</orig>
+                                <reg>silence</reg>
+                            </choice>
+                            peace.
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>More</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>Yo[u]</orig>
+                                <reg>You</reg>
+                            </choice>
+                            that
+                            <choice>
+                                <orig>haue</orig>
+                                <reg>have</reg>
+                            </choice>
+                            <choice>
+                                <orig>voyce</orig>
+                                <reg>voice</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>Credyt</orig>
+                                <reg>Credit</reg>
+                            </choice>
+                            <choice>
+                                <orig>w[t]</orig>
+                                <reg>with</reg>
+                            </choice>
+                            the
+                            <choice>
+                                <orig>[Mv]</orig>
+                                <reg>My</reg>
+                            </choice>
+                            <choice>
+                                <orig>nvmber</orig>
+                                <reg>number</reg>
+                            </choice>
+                            <choice>
+                                <orig>Comaund</orig>
+                                <reg>Command</reg>
+                            </choice>
+                            them to a
+                            <choice>
+                                <orig>silnes</orig>
+                                <reg>silence</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">
+                                    <choice>
+                                        <orig>lincolne</orig>
+                                        <reg>lincoln</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>a
+                            <choice>
+                                <orig>plaigue</orig>
+                                <reg>plague</reg>
+                            </choice>
+                            on them they will not hold their peace the
+                            <choice>
+                                <orig>deule</orig>
+                                <reg>duel</reg>
+                            </choice>
+                            Cannot rule them
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>Then what a rough and
+                            <choice>
+                                <orig>ryotous</orig>
+                                <reg>riotous</reg>
+                            </choice>
+                            charge
+                            <choice>
+                                <orig>haue</orig>
+                                <reg>have</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>Leade</orig>
+                                <reg>Lead</reg>
+                            </choice>
+                            those that the
+                            <choice>
+                                <orig>deule</orig>
+                                <reg>duel</reg>
+                            </choice>
+                            Cannot rule
+                            good masters
+                            <choice>
+                                <orig>heare</orig>
+                                <reg>hear</reg>
+                            </choice>
+                            me
+                            <choice>
+                                <orig>speake</orig>
+                                <reg>speak</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="Doll">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Doll">doll</name>
+                            </hi>
+                        </speaker>
+                        <p>I
+                            <choice>
+                                <orig>byth</orig>
+                                <reg>both</reg>
+                            </choice>
+                            <choice>
+                                <orig>mas</orig>
+                                <reg>must</reg>
+                            </choice>
+                            will we
+                            <choice>
+                                <orig>moor</orig>
+                                <reg>More</reg>
+                            </choice>
+                            <choice>
+                                <orig>thart</orig>
+                                <reg>thou art</reg>
+                            </choice>
+                            a good
+                            <choice>
+                                <orig>howskeeper</orig>
+                                <reg>housekeeper</reg>
+                            </choice>
+                            and I
+                            <choice>
+                                <orig>thanck</orig>
+                                <reg>thank</reg>
+                            </choice>
+                            thy good worship for my Brother Arthur
+                            <choice>
+                                <orig>watchins</orig>
+                                <reg>watchings</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>peace peace</p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <ref target="Biography?">look what
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                do offend
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                Cry
+                                <choice>
+                                    <orig>vppo[n]</orig>
+                                    <reg>upon</reg>
+                                </choice>
+                                that is the peace, not [ of
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>heare</orig>
+                                    <reg>hear</reg>
+                                </choice>
+                                ] present
+                                had there such
+                                <choice>
+                                    <orig>fellowes</orig>
+                                    <reg>fellows</reg>
+                                </choice>
+                                ,
+                                <choice>
+                                    <orig>lyv[d</orig>
+                                    <reg>lived</reg>
+                                </choice>
+                                <choice>
+                                    <orig>w]hen</orig>
+                                    <reg>when</reg>
+                                </choice>
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>wer</orig>
+                                    <reg>were</reg>
+                                </choice>
+                                babes
+                                that
+                                <choice>
+                                    <orig>coold</orig>
+                                    <reg>could</reg>
+                                </choice>
+                                <choice>
+                                    <orig>haue</orig>
+                                    <reg>have</reg>
+                                </choice>
+                                <choice>
+                                    <orig>topt</orig>
+                                    <reg>topped</reg>
+                                </choice>
+                                the
+                                <choice>
+                                    <orig>p[eace]</orig>
+                                    <reg>peace</reg>
+                                </choice>
+                                as
+                                <choice>
+                                    <orig>nowe</orig>
+                                    <reg>now</reg>
+                                </choice>
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>woold</orig>
+                                    <reg>would</reg>
+                                </choice>
+                                the peace
+                                <choice>
+                                    <orig>wherin</orig>
+                                    <reg>wherein</reg>
+                                </choice>
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>haue</orig>
+                                    <reg>have</reg>
+                                </choice>
+                                <choice>
+                                    <orig>till</orig>
+                                    <reg>til</reg>
+                                </choice>
+                                <choice>
+                                    <orig>nowe</orig>
+                                    <reg>now</reg>
+                                </choice>
+                                <choice>
+                                    <orig>growne</orig>
+                                    <reg>grown</reg>
+                                </choice>
+                                <choice>
+                                    <orig>vp</orig>
+                                    <reg>up</reg>
+                                </choice>
+                                had
+                                <choice>
+                                    <orig>bin</orig>
+                                    <reg>been</reg>
+                                </choice>
+                                <choice>
+                                    <orig>tane</orig>
+                                    <reg>taken</reg>
+                                </choice>
+                                from
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                , and the bloody
+                                <choice>
+                                    <orig>tymes</orig>
+                                    <reg>times</reg>
+                                </choice>
+                                <choice>
+                                    <orig>coold</orig>
+                                    <reg>could</reg>
+                                </choice>
+                                not have brought
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                to [ ] the state of men
+                                alas poor
+                                <choice>
+                                    <orig>thing[s]</orig>
+                                    <reg>things</reg>
+                                </choice>
+                                what is
+                                <choice>
+                                    <orig>yt</orig>
+                                    <reg>it</reg>
+                                </choice>
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>haue</orig>
+                                    <reg>have</reg>
+                                </choice>
+                                <choice>
+                                    <orig>gott</orig>
+                                    <reg>got</reg>
+                                </choice>
+                                although we
+                                <choice>
+                                    <orig>graunt</orig>
+                                    <reg>grant</reg>
+                                </choice>
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>geat</orig>
+                                    <reg>grant</reg>
+                                </choice>
+                                the thing
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>seeke</orig>
+                                    <reg>seek</reg>
+                                </choice>
+                            </ref>
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">
+                                    <choice>
+                                        <orig>d betts</orig>
+                                        <reg>deputy betts</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>marry the removing of the
+                            <choice>
+                                <orig>straingers</orig>
+                                <reg>original</reg>
+                            </choice>
+                            <choice>
+                                <orig>w[ch]</orig>
+                                <reg>which</reg>
+                            </choice>
+                            cannot choose but
+                            much [
+                            <choice>
+                                <orig>helpe'</orig>
+                                <reg>help</reg>
+                            </choice>
+                            <choice>
+                                <orig>advauntage</orig>
+                                <reg>advantage</reg>
+                            </choice>
+                            the poor
+                            <choice>
+                                <orig>handycraftes</orig>
+                                <reg>handy crafts</reg>
+                            </choice>
+                            of the
+                            <choice>
+                                <orig>Cytty</orig>
+                                <reg>City</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>graunt</orig>
+                                <reg>grant</reg>
+                            </choice>
+                            them
+                            <choice>
+                                <orig>remoued</orig>
+                                <reg>removed</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>graunt</orig>
+                                <reg>grant</reg>
+                            </choice>
+                            that this
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>[y]</orig>
+                                <reg>I</reg>
+                            </choice>
+                            <choice>
+                                <orig>noyce</orig>
+                                <reg>noise</reg>
+                            </choice>
+                            hath
+                            <choice>
+                                <orig>Chidd</orig>
+                                <reg>Chid</reg>
+                            </choice>
+                            <choice>
+                                <orig>downe</orig>
+                                <reg>down</reg>
+                            </choice>
+                            all the
+                            <choice>
+                                <orig>matie</orig>
+                                <reg>might</reg>
+                            </choice>
+                            of
+                            <placeName>
+                                <choice>
+                                    <orig>Ingland</orig>
+                                    <reg>England</reg>
+                                </choice>
+                            </placeName>
+                            <choice>
+                                <orig>ymagin</orig>
+                                <reg>imagine</reg>
+                            </choice>
+                            that
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            see the wretched
+                            <choice>
+                                <orig>straingers</orig>
+                                <reg>strangers</reg>
+                            </choice>
+                            their
+                            <choice>
+                                <orig>babyes</orig>
+                                <reg>babies</reg>
+                            </choice>
+                            <choice>
+                                <orig>al</orig>
+                                <reg>all</reg>
+                            </choice>
+                            their
+                            <choice>
+                                <orig>backſ</orig>
+                                <reg>backs</reg>
+                            </choice>
+                            , and their poor
+                            <choice>
+                                <orig>lugage</orig>
+                                <reg>luggage</reg>
+                            </choice>
+                            <choice>
+                                <orig>plodding</orig>
+                                <reg>plotting</reg>
+                            </choice>
+                            tooth
+                            <choice>
+                                <orig>portſ</orig>
+                                <reg>ports</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>costſ</orig>
+                                <reg>costs</reg>
+                            </choice>
+                            for
+                            <choice>
+                                <orig>transportatcion</orig>
+                                <reg>transportation</reg>
+                            </choice>
+                            and that
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>sytt</orig>
+                                <reg>sit</reg>
+                            </choice>
+                            as
+                            <choice>
+                                <orig>kingſ</orig>
+                                <reg>kings</reg>
+                            </choice>
+                            in your
+                            <choice>
+                                <orig>desyres</orig>
+                                <reg>desires</reg>
+                            </choice>
+                            <choice>
+                                <orig>aucthoryty</orig>
+                                <reg>authority</reg>
+                            </choice>
+                            <choice>
+                                <orig>quyte</orig>
+                                <reg>quite</reg>
+                            </choice>
+                            <choice>
+                                <orig>sylenct</orig>
+                                <reg>silenced</reg>
+                            </choice>
+                            by
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>braule</orig>
+                                <reg>brawl</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            in ruff of
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>[yo]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>opynions</orig>
+                                <reg>opinions</reg>
+                            </choice>
+                            <choice>
+                                <orig>clothd</orig>
+                                <reg>clothed</reg>
+                            </choice>
+                            what had
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>gott</orig>
+                                <reg>got</reg>
+                            </choice>
+                            ,
+                            <choice>
+                                <orig>I'le</orig>
+                                <reg>I'll</reg>
+                            </choice>
+                            tell
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            ,
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            had taught
+                            how
+                            <choice>
+                                <orig>insolenc</orig>
+                                <reg>insolence</reg>
+                            </choice>
+                            and strong hand
+                            <choice>
+                                <orig>shoold</orig>
+                                <reg>should</reg>
+                            </choice>
+                            <choice>
+                                <orig>prevayle</orig>
+                                <reg>prevail</reg>
+                            </choice>
+                            how
+                            <choice>
+                                <orig>ordere</orig>
+                                <reg>order</reg>
+                            </choice>
+                            <choice>
+                                <orig>shoold</orig>
+                                <reg>should</reg>
+                            </choice>
+                            be
+                            <choice>
+                                <orig>quelld</orig>
+                                <reg>quelled</reg>
+                            </choice>
+                            , and by this
+                            <choice>
+                                <orig>patterne</orig>
+                                <reg>pattern</reg>
+                            </choice>
+                            not on
+                            <choice>
+                                <orig>of</orig>
+                                <reg>if</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>shoold</orig>
+                                <reg>should</reg>
+                            </choice>
+                            <choice>
+                                <orig>lyve</orig>
+                                <reg>live</reg>
+                            </choice>
+                            an aged man
+                            for other ruffians as their fancies wrought with
+                            <choice>
+                                <orig>sealf</orig>
+                                <reg>self</reg>
+                            </choice>
+                            same hand
+                            <choice>
+                                <orig>sealf</orig>
+                                <reg>self</reg>
+                            </choice>
+                            reasons and
+                            <choice>
+                                <orig>sealf</orig>
+                                <reg>self</reg>
+                            </choice>
+                            right
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            <choice>
+                                <orig>shard</orig>
+                                <reg>shared</reg>
+                            </choice>
+                            on
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            and men
+                            <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice>
+                            ravenous fishes
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            feed on on another
+                        </p>
+                    </sp>
+
+                    <sp who="Doll">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Doll">doll</name>
+                            </hi>
+                        </speaker>
+                        <p>before
+                            <persName>
+                                <choice>
+                                    <orig>god</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            <choice>
+                                <orig>thatſ</orig>
+                                <reg>that's</reg>
+                            </choice>
+                            as
+                            <choice>
+                                <orig>trewe</orig>
+                                <reg>true</reg>
+                            </choice>
+                            as the
+                            <choice>
+                                <orig>gospell</orig>
+                                <reg>gospel</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">
+                                    <choice>
+                                        <orig>bettſ</orig>
+                                        <reg>betts</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <ref target="Thompson_Transcription">LINCOLN nay this a sound
+                                <choice>
+                                    <orig>fellowe</orig>
+                                    <reg>fellow</reg>
+                                </choice>
+                                I tell
+                                <choice>
+                                    <orig>yo[u]</orig>
+                                    <reg>you</reg>
+                                </choice>
+                                <choice>
+                                    <orig>lets</orig>
+                                    <reg>let's</reg>
+                                </choice>
+                                mark him
+                            </ref>
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>Lett</orig>
+                                <reg>Let</reg>
+                            </choice>
+                            me
+                            <choice>
+                                <orig>sett</orig>
+                                <reg>set</reg>
+                            </choice>
+                            <choice>
+                                <orig>vp</orig>
+                                <reg>up</reg>
+                            </choice>
+                            before
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            thoughts good
+                            <choice>
+                                <orig>freindſ</orig>
+                                <reg>friends</reg>
+                            </choice>
+                            on
+                            <choice>
+                                <orig>supposytion</orig>
+                                <reg>supposition</reg>
+                            </choice>
+                            which if
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            will
+                            <choice>
+                                <orig>marke</orig>
+                                <reg>mark</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            shall [px]
+                            <choice>
+                                <orig>ceaue</orig>
+                                <reg>see</reg>
+                            </choice>
+                            <choice>
+                                <orig>howe</orig>
+                                <reg>how</reg>
+                            </choice>
+                            horrible a shape
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>ynnovation</orig>
+                                <reg>innovation</reg>
+                            </choice>
+                            <choice>
+                                <orig>beres</orig>
+                                <reg>bares</reg>
+                            </choice>
+                            , first
+                            <choice>
+                                <orig>tis</orig>
+                                <reg>it is</reg>
+                            </choice>
+                            a
+                            <choice>
+                                <orig>sinn</orig>
+                                <reg>sin</reg>
+                            </choice>
+                            which
+                            <choice>
+                                <orig>oft</orig>
+                                <reg>if it</reg>
+                            </choice>
+                            <choice>
+                                <orig>thappostle</orig>
+                                <reg>the apostle</reg>
+                            </choice>
+                            did
+                            <choice>
+                                <orig>forwarne</orig>
+                                <reg>forworn</reg>
+                            </choice>
+                            <choice>
+                                <orig>vs</orig>
+                                <reg>us</reg>
+                            </choice>
+                            of
+                            <choice>
+                                <orig>vrging</orig>
+                                <reg>urging</reg>
+                            </choice>
+                            <choice>
+                                <orig>obedienc</orig>
+                                <reg>pbedience</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>aucthory</orig>
+                                <reg>authority</reg>
+                            </choice>
+                            [ty]
+                            and
+                            <choice>
+                                <orig>twere</orig>
+                                <reg>it were</reg>
+                            </choice>
+                            [ ] no error
+                            <choice>
+                                <orig>yf</orig>
+                                <reg>if</reg>
+                            </choice>
+                            I told
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            all
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>wer</orig>
+                                <reg>were</reg>
+                            </choice>
+                            in
+                            <choice>
+                                <orig>armes</orig>
+                                <reg>arms</reg>
+                            </choice>
+                            <choice>
+                                <orig>gainst</orig>
+                                <reg>against</reg>
+                            </choice>
+                            <choice>
+                                <orig>g[ ]</orig>
+                                <reg>God</reg>
+                            </choice>
+                        </p>
+                    </sp>
+                </div>
+
+                <div>
+                    <head type="MS_Details">Harley MS 7368, folio 9 recto</head>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>marry
+                            <persName>
+                                <choice>
+                                    <orig>god</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            forbid that
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moo</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>nay certainly
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>ar</orig>
+                                <reg>are</reg>
+                            </choice>
+                            for to the king
+                            <persName>
+                                <choice>
+                                    <orig>god</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            hath his
+                            <choice>
+                                <orig>offyce</orig>
+                                <reg>office</reg>
+                            </choice>
+                            lent
+                            of dread of
+                            <choice>
+                                <orig>lustyce</orig>
+                                <reg>justice</reg>
+                            </choice>
+                            , power and
+                            <choice>
+                                <orig>Comaund</orig>
+                                <reg>Command</reg>
+                            </choice>
+                            hath bid him rule, and
+                            <choice>
+                                <orig>willd</orig>
+                                <reg>willed</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>obay</orig>
+                                <reg>obey</reg>
+                            </choice>
+                            and to add ampler
+                            <choice>
+                                <orig>ma[t] ie</orig>
+                                <reg>might</reg>
+                            </choice>
+                            . to this
+                            he
+                            <persName>
+                                <choice>
+                                    <orig>[god]</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            hath not
+                            <choice>
+                                <orig>[le]</orig>
+                                <reg>the</reg>
+                            </choice>
+                            only lent the king his figure
+                            his throne
+                            <choice>
+                                <orig>[his]</orig>
+                                <reg>his</reg>
+                            </choice>
+                            sword, but
+                            <choice>
+                                <orig>gyven</orig>
+                                <reg>given</reg>
+                            </choice>
+                            him his
+                            <choice>
+                                <orig>owne</orig>
+                                <reg>own</reg>
+                            </choice>
+                            name
+                            calls
+                            <choice>
+                                <orig>hi</orig>
+                                <reg>him</reg>
+                            </choice>
+                            a
+                            <persName>
+                                <choice>
+                                    <orig>[god]</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            on earth, what do
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            then
+                            <choice>
+                                <orig>rysing</orig>
+                                <reg>rising</reg>
+                            </choice>
+                            <choice>
+                                <orig>gainst</orig>
+                                <reg>against</reg>
+                            </choice>
+                            him that
+                            <persName>
+                                <choice>
+                                    <orig>[god]</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            <choice>
+                                <orig>himsealf</orig>
+                                <reg>himself</reg>
+                            </choice>
+                            <choice>
+                                <orig>enstalls</orig>
+                                <reg>installs</reg>
+                            </choice>
+                            but
+                            <choice>
+                                <orig>ryse</orig>
+                                <reg>rise</reg>
+                            </choice>
+                            <choice>
+                                <orig>gainst</orig>
+                                <reg>against</reg>
+                            </choice>
+                            <persName>
+                                <choice>
+                                    <orig>god</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            , what do
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>sowles</orig>
+                                <reg>souls</reg>
+                            </choice>
+                            in doing this
+                            <choice>
+                                <orig>o</orig>
+                                <reg>on</reg>
+                            </choice>
+                            <choice>
+                                <orig>desperat</orig>
+                                <reg>desperate</reg>
+                            </choice>
+                            <choice>
+                                <orig>[ar]</orig>
+                                <reg>are</reg>
+                            </choice>
+                            as you are.
+                            wash your
+                            <choice>
+                                <orig>foule</orig>
+                                <reg>foul</reg>
+                            </choice>
+                            <choice>
+                                <orig>mynds</orig>
+                                <reg>minds</reg>
+                            </choice>
+                            <choice>
+                                <orig>w[t]</orig>
+                                <reg>with</reg>
+                            </choice>
+                            <choice>
+                                <orig>teares</orig>
+                                <reg>tears</reg>
+                            </choice>
+                            and those same
+                            <choice>
+                                <orig>handſ</orig>
+                                <reg>hands</reg>
+                            </choice>
+                            that
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice>
+                            <choice>
+                                <orig>rebells</orig>
+                                <reg>rebels</reg>
+                            </choice>
+                            <choice>
+                                <orig>lyft</orig>
+                                <reg>lift</reg>
+                            </choice>
+                            against the peace
+                            lift
+                            <choice>
+                                <orig>vp</orig>
+                                <reg>up</reg>
+                            </choice>
+                            for peace, and your
+                            <choice>
+                                <orig>vnreuerent</orig>
+                                <reg>unvenerate</reg>
+                            </choice>
+                            knees
+                            <choice>
+                                <orig>[that]</orig>
+                                <reg>that</reg>
+                            </choice>
+                            make them your feet to
+                            <choice>
+                                <orig>kneele</orig>
+                                <reg>kneel</reg>
+                            </choice>
+                            to be
+                            <choice>
+                                <orig>forgyven</orig>
+                                <reg>forgiven</reg>
+                            </choice>
+                            [is safer
+                            <choice>
+                                <orig>warrs</orig>
+                                <reg>wars</reg>
+                            </choice>
+                            , than
+                            <choice>
+                                <orig>euer</orig>
+                                <reg>ever</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            can make]
+                            [whose discipline
+                            <choice>
+                                <orig>id</orig>
+                                <reg>I'd</reg>
+                            </choice>
+                            <choice>
+                                <orig>ryot</orig>
+                                <reg>riot</reg>
+                            </choice>
+                            ; why
+                            <choice>
+                                <orig>euen</orig>
+                                <reg>even</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            [
+                            <choice>
+                                <orig>warrs</orig>
+                                <reg>wars</reg>
+                            </choice>
+                            ] hurly] [in in to
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>obedienc</orig>
+                                <reg>obedience</reg>
+                            </choice>
+                            .
+                            [cannot
+                            <choice>
+                                <orig>p[ro]eed</orig>
+                                <reg>proceed</reg>
+                            </choice>
+                            but by
+                            <choice>
+                                <orig>obedienc</orig>
+                                <reg>obedience</reg>
+                            </choice>
+                            ] TELL ME BUT THIS what
+                            <choice>
+                                <orig>rebell</orig>
+                                <reg>rebel</reg>
+                            </choice>
+                            <choice>
+                                <orig>captaine</orig>
+                                <reg>captain</reg>
+                            </choice>
+                            as
+                            <choice>
+                                <orig>mutynes</orig>
+                                <reg>mutiny</reg>
+                            </choice>
+                            <choice>
+                                <orig>ar</orig>
+                                <reg>are</reg>
+                            </choice>
+                            incident, by his name
+                            can still the
+                            <choice>
+                                <orig>rout</orig>
+                                <reg>root</reg>
+                            </choice>
+                            who will
+                            <choice>
+                                <orig>obay</orig>
+                                <reg>obey</reg>
+                            </choice>
+                            <choice>
+                                <orig>[th]</orig>
+                                <reg>the</reg>
+                            </choice>
+                            a
+                            <choice>
+                                <orig>traytor</orig>
+                                <reg>traitor</reg>
+                            </choice>
+                            <choice>
+                                <orig>o</orig>
+                                <reg>of</reg>
+                            </choice>
+                            <choice>
+                                <orig>howe</orig>
+                                <reg>how</reg>
+                            </choice>
+                            can well that
+                            <choice>
+                                <orig>p[ro]clamation</orig>
+                                <reg>proclamation</reg>
+                            </choice>
+                            <choice>
+                                <orig>sounde</orig>
+                                <reg>sound</reg>
+                            </choice>
+                            when
+                            <choice>
+                                <orig>ther</orig>
+                                <reg>there</reg>
+                            </choice>
+                            is no
+                            <choice>
+                                <orig>adicion</orig>
+                                <reg>addiction</reg>
+                            </choice>
+                            but a
+                            <choice>
+                                <orig>rebell</orig>
+                                <reg>rebel</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>quallyfy</orig>
+                                <reg>qualify</reg>
+                            </choice>
+                            a
+                            <choice>
+                                <orig>rebell</orig>
+                                <reg>rebel</reg>
+                            </choice>
+                            ,
+                            <choice>
+                                <orig>youle</orig>
+                                <reg>you'll</reg>
+                            </choice>
+                            put down
+                            <choice>
+                                <orig>straingers</orig>
+                                <reg>strangers</reg>
+                            </choice>
+                            kill them
+                            <choice>
+                                <orig>cutt</orig>
+                                <reg>cut</reg>
+                            </choice>
+                            their
+                            <choice>
+                                <orig>throts</orig>
+                                <reg>throats</reg>
+                            </choice>
+                            <choice>
+                                <orig>possesse</orig>
+                                <reg>possess</reg>
+                            </choice>
+                            their
+                            <choice>
+                                <orig>howses</orig>
+                                <reg>houses</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>leade</orig>
+                                <reg>lead</reg>
+                            </choice>
+                            the
+                            <choice>
+                                <orig>matie</orig>
+                                <reg>might</reg>
+                            </choice>
+                            of
+                            <choice>
+                                <orig>lawe</orig>
+                                <reg>law</reg>
+                            </choice>
+                            <choice>
+                                <orig>in</orig>
+                                <reg>and</reg>
+                            </choice>
+                            <choice>
+                                <orig>liom</orig>
+                                <reg>lion</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>slipp</orig>
+                                <reg>slip</reg>
+                            </choice>
+                            him
+                            <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice>
+                            a hound ;
+                            <choice>
+                                <orig>[saying] [alas alsas]</orig>
+                                <reg>saying alas alas</reg>
+                            </choice>
+                            say
+                            <choice>
+                                <orig>nowe</orig>
+                                <reg>now</reg>
+                            </choice>
+                            the king
+                            as he is clement,
+                            <choice>
+                                <orig>yf</orig>
+                                <reg>if</reg>
+                            </choice>
+                            <choice>
+                                <orig>thoffendor</orig>
+                                <reg>the offender</reg>
+                            </choice>
+                            <choice>
+                                <orig>moorne</orig>
+                                <reg>mourn</reg>
+                            </choice>
+                            <choice>
+                                <orig>shoold</orig>
+                                <reg>should</reg>
+                            </choice>
+                            so much
+                            <choice>
+                                <orig>com</orig>
+                                <reg>come</reg>
+                            </choice>
+                            to short of your
+                            <choice>
+                                <orig>grat</orig>
+                                <reg>great</reg>
+                            </choice>
+                            <choice>
+                                <orig>trespas</orig>
+                                <reg>trespass</reg>
+                            </choice>
+                            as but to
+                            <choice>
+                                <orig>banysh</orig>
+                                <reg>banish</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            , whether
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            go.
+                            what Country by the nature of
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            error
+                            <choice>
+                                <orig>shoold</orig>
+                                <reg>should</reg>
+                            </choice>
+                            <choice>
+                                <orig>gyve</orig>
+                                <reg>give</reg>
+                            </choice>
+                            you
+                            <choice>
+                                <orig>harber</orig>
+                                <reg>harbor</reg>
+                            </choice>
+                            go
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            to
+                            <placeName>
+                                <choice>
+                                    <orig>ffraunc</orig>
+                                    <reg>France</reg>
+                                </choice>
+                            </placeName>
+                            or
+                            <placeName>flanders</placeName>
+                            to any <placeName>larman</placeName>
+                            <choice>
+                                <orig>p[ro]vince</orig>
+                                <reg>province</reg>
+                            </choice>
+                            ,
+                            <choice>
+                                <orig>[to]</orig>
+                                <reg>to</reg>
+                            </choice>
+                            <placeName>
+                                <choice>
+                                    <orig>spane</orig>
+                                    <reg>Spain</reg>
+                                </choice>
+                            </placeName>
+                            or
+                            <placeName>
+                                <choice>
+                                    <orig>portigall</orig>
+                                    <reg>Portegal</reg>
+                                </choice>
+                            </placeName>
+                            nay any where
+                            <choice>
+                                <orig>[why yo[u]]</orig>
+                                <reg>why you</reg>
+                            </choice>
+                            that not adheres to
+                            <placeName>
+                                <choice>
+                                    <orig>Ingland</orig>
+                                    <reg>England</reg>
+                                </choice>
+                            </placeName>
+                            why
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            must
+                            <choice>
+                                <orig>needſ</orig>
+                                <reg>needs</reg>
+                            </choice>
+                            be
+                            <choice>
+                                <orig>straingers</orig>
+                                <reg>strangers</reg>
+                            </choice>
+                            .
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            be
+                            <choice>
+                                <orig>pleasd</orig>
+                                <reg>pleased</reg>
+                            </choice>
+                            to find a nation of such
+                            <choice>
+                                <orig>barbarous</orig>
+                                <reg>barberous</reg>
+                            </choice>
+                            temper
+                            that breaking out in
+                            <choice>
+                                <orig>hiddious</orig>
+                                <reg>hideous</reg>
+                            </choice>
+                            violence
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            not
+                            <choice>
+                                <orig>afoord</orig>
+                                <reg>afford</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            , an abode on earth
+                            <choice>
+                                <orig>whett</orig>
+                                <reg>when in</reg>
+                            </choice>
+                            their detested
+                            <choice>
+                                <orig>knyves</orig>
+                                <reg>knives</reg>
+                            </choice>
+                            against
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>throtes</orig>
+                                <reg>throats</reg>
+                            </choice>
+                            <choice>
+                                <orig>spurne</orig>
+                                <reg>spurn</reg>
+                            </choice>
+                            <choice>
+                                <orig>uo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice>
+                            <choice>
+                                <orig>doggſ</orig>
+                                <reg>dogs</reg>
+                            </choice>
+                            , and
+                            <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice>
+                            as
+                            <choice>
+                                <orig>yf</orig>
+                                <reg>if</reg>
+                            </choice>
+                            that
+                            <persName>
+                                <choice>
+                                    <orig>god</orig>
+                                    <reg>God</reg>
+                                </choice>
+                            </persName>
+                            owed not nor made not
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            , nor that the
+                            <choice>
+                                <orig>elamentſ</orig>
+                                <reg>elements</reg>
+                            </choice>
+                            <choice>
+                                <orig>wer</orig>
+                                <reg>were</reg>
+                            </choice>
+                            not all
+                            <choice>
+                                <orig>appropriat</orig>
+                                <reg>appropriate</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>[ther]</orig>
+                                <reg>there</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>Comfortſ</orig>
+                                <reg>Comforts</reg>
+                            </choice>
+                            .
+                            but
+                            <choice>
+                                <orig>Charterd</orig>
+                                <reg>Chartered</reg>
+                            </choice>
+                            <choice>
+                                <orig>vnto</orig>
+                                <reg>unto</reg>
+                            </choice>
+                            them, what
+                            <choice>
+                                <orig>woold</orig>
+                                <reg>would</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            <choice>
+                                <orig>thinck</orig>
+                                <reg>think</reg>
+                            </choice>
+                            to be thus
+                            <choice>
+                                <orig>vsd</orig>
+                                <reg>used</reg>
+                            </choice>
+                            , this is the
+                            <choice>
+                                <orig>straingers</orig>
+                                <reg>strangers</reg>
+                            </choice>
+                            case
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>and this your
+                            <choice>
+                                <orig>momtanish</orig>
+                                <reg>mountanous</reg>
+                            </choice>
+                            <choice>
+                                <orig>inhumanyty</orig>
+                                <reg>inhumanity</reg>
+                            </choice>
+                            <choice>
+                                <orig>fayth</orig>
+                                <reg>faith</reg>
+                            </choice>
+                            a
+                            <choice>
+                                <orig>saies</orig>
+                                <reg>says</reg>
+                            </choice>
+                            <choice>
+                                <orig>trewe</orig>
+                                <reg>true</reg>
+                            </choice>
+                            <choice>
+                                <orig>letts</orig>
+                                <reg>let's</reg>
+                            </choice>
+                            <choice>
+                                <orig>vs</orig>
+                                <reg>us</reg>
+                            </choice>
+                            do as we may be
+                            <choice>
+                                <orig>doon</orig>
+                                <reg>done</reg>
+                            </choice>
+                            by
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">
+                                    <choice>
+                                        <orig>[all]</orig>
+                                        <reg>all</reg>
+                                    </choice>
+                                    <choice>
+                                        <orig>lincoln</orig>
+                                        <reg>lincoln</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>weele</orig>
+                                <reg>we'll</reg>
+                            </choice>
+                            be
+                            <choice>
+                                <orig>ruld</orig>
+                                <reg>ruled</reg>
+                            </choice>
+                            by
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            master
+                            <choice>
+                                <orig>moor</orig>
+                                <reg>More</reg>
+                            </choice>
+                            <choice>
+                                <orig>yf</orig>
+                                <reg>if</reg>
+                            </choice>
+                            <choice>
+                                <orig>youle</orig>
+                                <reg>you'll</reg>
+                            </choice>
+                            stand our
+                            <choice>
+                                <orig>freind</orig>
+                                <reg>friend</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>p[ro]cure</orig>
+                                <reg>procure</reg>
+                            </choice>
+                            our
+                            <choice>
+                                <orig>[px]don</orig>
+                                <reg>pardon</reg>
+                            </choice>
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">
+                                    <choice>
+                                        <orig>moor</orig>
+                                        <reg>more</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>
+                            <choice>
+                                <orig>Submyt</orig>
+                                <reg>Submit</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            to theise noble gentlemen
+                            <choice>
+                                <orig>entreate</orig>
+                                <reg>entreat</reg>
+                            </choice>
+                            their mediation to the
+                            <choice>
+                                <orig>kinge</orig>
+                                <reg>king</reg>
+                            </choice>
+                            <choice>
+                                <orig>gyve</orig>
+                                <reg>give</reg>
+                            </choice>
+                            <choice>
+                                <orig>vp</orig>
+                                <reg>up</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[r]</orig>
+                                <reg>your</reg>
+                            </choice>
+                            <choice>
+                                <orig>sealf</orig>
+                                <reg>self</reg>
+                            </choice>
+                            to
+                            <choice>
+                                <orig>forme</orig>
+                                <reg>form</reg>
+                            </choice>
+                            <choice>
+                                <orig>obay</orig>
+                                <reg>obey</reg>
+                            </choice>
+                            the
+                            <choice>
+                                <orig>maiestrate</orig>
+                                <reg>majistrate</reg>
+                            </choice>
+                            and
+                            <choice>
+                                <orig>thers</orig>
+                                <reg>there's</reg>
+                            </choice>
+                            no doubt, but mercy may be found.
+                            <choice>
+                                <orig>yf</orig>
+                                <reg>if</reg>
+                            </choice>
+                            <choice>
+                                <orig>yo[u]</orig>
+                                <reg>you</reg>
+                            </choice>
+                            so seek it.
+                        </p>
+                    </sp>
+                </div>
+            </div>
+
+            <div>
+                <head>Performance Edition
+                    Edited by:
+                    <persName>Amanda Marie Rogus</persName>
+                </head>
+
+                <div>
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Peace, hear me! He that will not see a red hearing at a hairy
+                            goat butter at eleven pence a pound meal at nine shillings a
+                            Bushell and Beef at flower nobles a stone list to me.
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">geo betts</name>
+                            </hi>
+                        </speaker>
+                        <p>It will Come to the pass if strangers be suffered mark him.</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Our Country is a great eating Country, ergo they eat more in
+                            our Country then they do in their own.
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">betts clown</name>
+                            </hi>
+                        </speaker>
+                        <p>By half penny lost a day tray weight.</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>They bring in straying roots, which is merely to the undoing of poor
+                            prentises, for what's a watery or sorry snipp to a good heart.
+                        </p>
+                    </sp>
+
+                    <sp who="Williamson">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Williamson">william</name>
+                            </hi>
+                        </speaker>
+                        <p>Trash trash; they breed sore eyes and this is enough to infect the
+                            City with the palsey.
+                        </p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Nay, it infected it with the palsey, for these bastards of dung
+                            as you know they grow in Dung have infected us, and it it our
+                            infection will make the City shake patiently Comes through
+                            the eating snips.
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">clown. betts</name>
+                            </hi>
+                        </speaker>
+                        <p>True and pumkins together!</p>
+                    </sp>
+
+                    <stage>[ENTER Servant]</stage>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">clown. betts</name>
+                            </hi>
+                        </speaker>
+                        <p>What say you to the mercy of the king do you refuse it.</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>You would have us upon think would you no marry do we not, we
+                            accept of the kings mercy but wee show no mercy upon
+                            the strangers.
+                        </p>
+                    </sp>
+
+                    <sp who="Servant">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Servant">servant</name>
+                            </hi>
+                        </speaker>
+                        <p>You are the simplest things that ever stood in such a question.</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>How say you now prince princesses simple down with him
+                            all princesses simple princesses simple?
+                        </p>
+                    </sp>
+
+                    <stage>[Enter the Lord Mayor Surrey - Shrewsbury]</stage>
+
+                    <sp who="Mayor">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Mayor">mayor</name>
+                            </hi>
+                        </speaker>
+                        <p>Hold in the kings name! Hold!</p>
+                    </sp>
+
+                    <sp who="Surrey">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Surrey">surrey</name>
+                            </hi>
+                        </speaker>
+                        <p>Friends, masters, Countrymen!</p>
+                    </sp>
+
+                    <sp who="Mayor">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Mayor">mayor</name>
+                            </hi>
+                        </speaker>
+                        <p>Peace! How peace! I should Charge you! Keep the peace!</p>
+                    </sp>
+
+                    <sp who="Shrewsberry">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Shrewsberry">shrewsberry</name>
+                            </hi>
+                        </speaker>
+                        <p>My masters Countrymen!</p>
+                    </sp>
+
+                    <sp who="Williamson">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Williamson">williamson</name>
+                            </hi>
+                        </speaker>
+                        <p>The noble Earl of Shrewsbury, lets hear him!</p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">ge betts</name>
+                            </hi>
+                        </speaker>
+                        <p>We'll heare the Earl of Surrey!</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>The Earl of Shrewsbury!</p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">betts</name>
+                            </hi>
+                        </speaker>
+                        <p>We'll hear both!</p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>Both! Both! Both! Both!</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Peace, I say! Peace, are you men of Wisdom? Are? Or
+                            what are you?
+                        </p>
+                    </sp>
+
+                    <sp who="Surrey">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Surrey">surrey</name>
+                            </hi>
+                        </speaker>
+                        <p>But what you have them but not men of Wisdom?</p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>We'll not hear my Lord of Surrey! No! No! No! No! No!
+                            Shrewsbury, sir...
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Whiles the are our the bank of their obedience,
+                            thus will they bear down all things.
+                        </p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Sheriff More speaks, shall we hear sheriff moor speak?</p>
+                    </sp>
+
+                    <sp who="Doll">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Doll">doll</name>
+                            </hi>
+                        </speaker>
+                        <p>Let's hear him. He keeps a plentiful chivalry, and a made my
+                            Brother Arthur watch his Servant Saves yeoman let's hear
+                            Sheriff More.
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>Sheriff More! More, More Sheriff More!</p>
+                    </sp>
+                </div>
+
+                <div>
+                    <head>Harley MS 7368, folio 8 verso</head>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Even by the rule you have among your salutes
+                            command still audience!
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>Surrey! Surrey!</p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>More! More!</p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>Peace, peace! Silence! Peace.</p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>You that have voice and Credit wth the my Command!
+                            Command them to a silence!
+                        </p>
+                    </sp>
+
+                    <sp who="Lincoln">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Lincoln">lincoln</name>
+                            </hi>
+                        </speaker>
+                        <p>A plague on them they will not hold their peace the duel
+                            Cannot rule them!
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Then what a rough and riotous charge have you
+                            to Lead those that the duel Cannot rule
+                            good masters hear me speak.
+                        </p>
+                    </sp>
+
+                    <sp who="Doll">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Doll">doll</name>
+                            </hi>
+                        </speaker>
+                        <p>I both must will we moor thou art a good housekeeper and I
+                            thank thy good worship for my Brother Arthur watches.
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>Peace! Peace!</p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Look what you do offend you Cry upon
+                            that is the peace, not of you here present
+                            had there such fellows, lived when you were babes
+                            that could have topped the peace as now you would
+                            the peace wherein you have till now grown up
+                            had been taken from you, and the bloody times
+                            could not have brought you to the current state of men
+                            alas poor things what is yt you have got
+                            although we grant you get the thing you seek!
+                        </p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">d. betts</name>
+                            </hi>
+                        </speaker>
+                        <p>Marry, the removing of the strangers which cannot choose, but
+                            much help the advantage of the poor handy crafts of the City!
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Grant them removed and grant that this your I noise
+                            hath Chid down all the might of England,
+                            imagine that you see the wretched strangers
+                            their babies all their backs, and their poor luggage
+                            plodding tooth ports and costs for transportation
+                            and that you sit as kings in your desires
+                            authority quite silenced by your brawl
+                            and you in ruff of your our opinions clothed
+                            what had you got, I'll tell you, you had taught
+                            how insolence and strong hand should prevail
+                            how order should be quelld, and by this pattern
+                            not on of you should live an aged man
+                            for other ruffians as their fancies wrought
+                            with self same hand self reasons and self right
+                            would shared on you and men like ravenous fishes
+                            would feed on on another.
+                        </p>
+                    </sp>
+
+                    <sp who="Doll">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Doll">doll</name>
+                            </hi>
+                        </speaker>
+                        <p>Before God! That's as true as the gospel!</p>
+                    </sp>
+
+                    <sp who="Betts">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Betts">betts</name>
+                            </hi>
+                        </speaker>
+                        <p>Lincoln! Nay, this a sound fellow I tell you lets mark him!</p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">more</name>
+                            </hi>
+                        </speaker>
+                        <p>Let me set up before your thoughts good friends
+                            on supposition which if you will mark.
+                            You shall see how horrible a shape
+                            your innovation bares, first it is a sin,
+                            which if it the apostle did fore warne us of urging obedience to authority
+                            and it were no error if I told you all you were in arms against God.
+                        </p>
+                    </sp>
+                </div>
+
+                <div>
+                    <head>Harley MS 7368, folio 9 recto</head>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>Marry, God forbid that!</p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Nay, certainly you are
+                            for to the king God hath his office lent
+                            of dread of justice, power and Command
+                            hath bid him rule, and willed you to obey
+                            and to add ampler might if to this.
+                            He God hath not let only lent the king his figure
+                            his throne his sword, but given him his own name
+                            calls him a God on earth, what do you then
+                            rising against him that God himself installs
+                            but rise against God, what do you to your souls
+                            in doing this on desperate are as you are.
+                            Wash your foul minds with tears and those same hands
+                            that you like rebels lift against the peace,
+                            lift up for peace, and your unvenerate knees
+                            that make them your feet to kneel to be forgiven
+                            is safer wisdom that ever you can make
+                            whose discipline I'd riot; why even your war is early in in to your obedience!
+                            Cannot proeed but by obedience! TELL ME BUT THIS, what rebel captain
+                            as mutiny or incident, by his name
+                            can still the root who will obey the a traitor
+                            of how can well that proclamation sound
+                            when there is no addiction but a rebel?
+                            To qualify a rebel, you'll be put down strangers
+                            kill them cut their throats possess their houses
+                            and lead the mighty of law and lion
+                            to slip him like a hound; saying alas alas say now the king
+                            as he is clement, if the offendor mourn
+                            should so much come to short of your great trespass
+                            as but to banish you, whether would you go.
+                            What Country by the nature of your error
+                            should give you harbor go you to France or Flanders
+                            to any Larman Province, to Spain or Portegal,
+                            nay anywhere why youthat not adheres to England.
+                            Why you must needs be strangers. would you be pleased
+                            to find a nation of such barberous temper
+                            that breaking out in hidious violence.
+                            Would not afford you, an abode on earth
+                            when it their detested knives against your throats
+                            spurn you like dogs, and like as if that God
+                            owed not nor made not you, nor that the elements
+                            wer not all appropriate to their your Comforts.
+                            But Chartered unto them, what would you thick
+                            to be thus used, this is the strangers case.
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">all</name>
+                            </hi>
+                        </speaker>
+                        <p>And this your mountanous inhumanity
+                            faith a says true! Let us do as we may be done by!
+                        </p>
+                    </sp>
+
+                    <sp who="Ensemble">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#Ensemble">
+                                    <choice>
+                                        <orig>[all]</orig>
+                                        <reg>all</reg>
+                                    </choice>
+                                    <choice>
+                                        <orig>LINCO</orig>
+                                        <reg>LINCOLN</reg>
+                                    </choice>
+                                </name>
+                            </hi>
+                        </speaker>
+                        <p>We'll be ruled by you master moor if you'll stand our
+                            friend to procure our pardon.
+                        </p>
+                    </sp>
+
+                    <sp who="More">
+                        <speaker>
+                            <hi rend="caps">
+                                <name type="person" ref="#More">moor</name>
+                            </hi>
+                        </speaker>
+                        <p>Submit you to these noble gentleman
+                            entreat their mediation to the king
+                            give up your self to form obey the majistrate
+                            and there's no doubt, but mercy may be found. if you so seek it.
+                        </p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="editorial">
+            <note>
+            <p>Due to the context and position of this line on the page, scholars often feel that these
+                three pages may actually be an insert or revision forum from the initial comments by playwright
+                <name>Anthony Munday</name>
+            </p>
+            </note>
+            </div>
+            <ref target="Munday_Edits">
+                <bibl>
+                    <title>The Booke of Sir Thomas More and Its Problems</title>
+                    <author>
+                        <name>R.C. Bald</name>
+                    </author>
+                    <publisher>Cambridge University Press</publisher>
+                    <date>1949</date>
+                </bibl>
+                <ref/>
+                <note>
+                    <p>Lines such as this make scholars question the goal of constructing this dramatic work. Clearly,
+                        this contextually frames it as a non biographic work, but the drama has its own unique sense of
+                        stichomythia and overlapping that makes it appear as more than a story to the audience
+                        observing.
+                    </p>
+                    <ref target="Biography?">
+                        <bibl>
+                            <title>Shakespeare's Hand in the Play of Sir Thomas More</title>
+                            <author>
+                                <name>Alfred W. Pollard</name>
+                            </author>
+                            <publisher>Cambridge University Press</publisher>
+                            <date>1923</date>
+                        </bibl>
+                    </ref>
+                </note>
+                <note>
+                    <p>This edit comes from <name>W.W.Greg's</name> notes from the edition published by the Malone
+                        Society unpacking
+                        the details of what is happening in the play contextually. <name>Edward Maunde Thompson</name> listened
+                        to Greg
+                        in this particular instance, but it is clear that his transcription is seeking a different
+                        audience
+                        than the explantory venture in the facsimile made in 1844.
+                    </p>
+                    <ref target="Thompson_Transcription">
+                        <bibl>
+                            <title>Shakespeare's Handwriting: A Study</title>
+                            <author>
+                                <name>Edward Maunde Thompson</name>
+                            </author>
+                            <publisher>Oxford University Press</publisher>
+                            <date>1916</date>
+                        </bibl>
+                    </ref>
+                </note>
+                <note>
+                    <p>Brilliant stage actor <name>Sir Ian McKellen</name> discusses the rhythm of this line and how it
+                        speaks
+                        to a greater sense of Shakespearean rhetoric when compared to his other dramas showing yet more
+                        proof now in
+                        the performative realm that this is indeed a text of the great <name>William Shakespeare</name>.
+                    </p>
+                    <ref target="McKellen_Notes">
+                        <bibl>
+                            <title>Sir Thomas More</title>
+                            <author>
+                                <name>Sir Ian McKellen</name>
+                            </author>
+                            <publisher>Ian McKellen Stage</publisher>
+                            <date>2012</date>
+                        </bibl>
+                    </ref>
+                </note>
+                <note>
+                    <p>Framing the note to the performer in this way may appear to be a bit direct from a playwright to
+                        the
+                        modern eye but in early modern England there were no directors so notes this direct were
+                        actually quite
+                        common to see in manuscripts.
+                    </p>
+                    <ref target="Theatre_Directions">
+                        <bibl>
+                            <title>The Elizabethan Theatre and the Book of Sir Thomas More</title>
+                            <author>
+                                <name>Scott McMilin</name>
+                            </author>
+                            <publisher>Cornell University Press</publisher>
+                            <date>1987</date>
+                        </bibl>
+                    </ref>
+                </note>
+
+                <listPerson>
+                    <person xml:id="More" role="fictional" sex="m">
+                        <persName>
+                            <surname>More</surname>
+                            <forename>Thomas</forename>
+                        </persName>
+                        <note>
+                            <p>The protagonist of the play. He is the sheriff who also serves as a high level member of
+                                the local church.
+                            </p>
+                        </note>
+                    </person>
+                    <listPerson>
+                        <listPerson>
+                            <person xml:id="Lincoln" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Lincoln</surname>
+                                    <forename>Unlisted</forename>
+                                </persName>
+                                <note>
+                                    <p>A town official who is rallying to gain higher power within the govering
+                                        organization.
+                                    </p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Betts" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Betts</surname>
+                                    <forename>Geo</forename>
+                                </persName>
+                                <note>
+                                    <p>The town mayor's assistant who always enters before him to ensure saftey and
+                                        clarity of thought.
+                                    </p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Shrewsberry" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Shrewsberry</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>The representative from Shrewsberry who often argues with Thomas More about his
+                                        ideas.
+                                    </p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Surrey" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Surrey</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>The representative from Surrey who almost always agrees with the mayor.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Williamson" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Williamson</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>The deputy director of finances for the town center business district.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Doll" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Doll</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>The deputy who follows More around like a puppy.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Mayor" role="fictional" sex="m">
+                                <persName>
+                                    <surname>Mayor</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>The leader of the town who often causes concern for those in the church.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Ensemble" role="fictional">
+                                <persName>
+                                    <surname>Ensemble</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>Minor characters in the town square that often serve as a crowd to rally.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                        <listPerson>
+                            <person xml:id="Servant" role="fictional">
+                                <persName>
+                                    <surname>Servant</surname>
+                                    <forename>Unmentioned</forename>
+                                </persName>
+                                <note>
+                                    <p>Minor character who delivers messages to and from the Mayor's office.</p>
+                                </note>
+                            </person>
+                        </listPerson>
+                    </listPerson>
+
+                    <listBibl>
+                        <listBibl>
+                            <bibl>
+                                <surname>Bald</surname>, <forename>R.C.</forename>.
+                                <title>The Booke of Sir Thomas More and Its Problems</title>.
+                                <edition>1st Edition</edition>,
+                                <publisher>Cambridge University Press</publisher>,
+                                <date>1949</date>, <pubPlace>Cambridge</pubPlace>.
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <bibl>
+                                <surname>McKellen</surname>, <forename>Ian</forename>.
+                                <title>Sir Thomas More</title>.
+                                <edition>1st Edition</edition>,
+                                <publisher>Ian McKellen Stage</publisher>,
+                                <date>2012</date>, <pubPlace>Cambridge</pubPlace>.
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <bibl>
+                                <surname>McMilin</surname>, <forename>Scott</forename>.
+                                <title>The Elizabethan Theatre and the Book of Sir Thomas More</title>.
+                                <edition>2nd Edition</edition>,
+                                <publisher>Cornell University Press</publisher>,
+                                <date>1987</date>, <pubPlace>New York</pubPlace>.
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <bibl>
+                                <surname>Pollard</surname>, <forename>Alfred</forename>.
+                                <title>Shakespeare's Hand in the Play of Sir Thomas More</title>.
+                                <edition>2nd Edition</edition>,
+                                <publisher>Cambridge University Press</publisher>,
+                                <date>1923</date>, <pubPlace>Cambridge</pubPlace>.
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <bibl>
+                                <surname>Thompson</surname>, <forename>Edward Maunde</forename>.
+                                <title>Shakespeare's Handwriting: A Study</title>.
+                                <edition>1st Edition</edition>,
+                                <publisher>Oxford University Press</publisher>,
+                                <date>1916</date>, <pubPlace>Oxford</pubPlace>.
+                            </bibl>
+                        </listBibl>
+                    </listBibl>
+                </listPerson>
+            </ref>
+
+        </back>
+    </text>
+</div>
+        </TEI>
+
