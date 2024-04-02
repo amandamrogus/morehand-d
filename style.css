@@ -2,59 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'EB Garamond';
-   // border: 1px solid red;
-}.stdheader{
-     z-index: 2;
+    font-family: 'EB Garamond', serif;
+/ / border: 1 px solid red;
+}
 
+.stdheader {
+    z-index: 2;
     border: 1px solid blue;
     position: sticky;
     top: 0;
     background-image: url("images.jpeg");
     background-size: contain;
     background-position: center;
-
-
 }
-.speaker:hover .orig{
+
+.speaker:hover .orig {
     display: none;
 }
 
 
-.non-speaker:hover .reg{
+.non-speaker:hover .reg {
     display: inline;
 }
-.non-speaker:hover .orig{
+
+.non-speaker:hover .orig {
     display: none;
 }
 
 
-.speaker:hover .reg{
+.speaker:hover .reg {
     display: block;
 }
-.reg{
+
+.reg {
     display: none;
 }
- .header-spacing{
-     padding: 2rem;
- }
-.maintitle{
+
+.header-spacing {
+    padding: 2rem;
+}
+
+.maintitle {
     padding: 1rem;
-  background-color: rgba(210, 203, 203, 0.52);
+    background-color: rgba(210, 203, 203, 0.52);
     width: fit-content;
     text-align: center;
     margin: auto;
+    //text-shadow: 0 0 3px white;
     height: 100%;
     border: 1px rebeccapurple solid;
     font-size: 4rem;
-   color: rebeccapurple;
-
+    color: rebeccapurple;
 }
-.simple{
 
 
+.common-background {
+    padding: 4rem;
+    background-color: #e5e0e0;
+
+    border: 1px darkblue solid;
 }
-.index-stye{
+
+.index-stye {
 
     margin-top: 3rem;
     /*margin-bottom: 3rem ;*/
@@ -64,50 +73,63 @@
     border: 1px darkblue solid;
 
 }
-.parent-article{
-    width: 80%; margin-left:  auto;
+
+.parent-article {
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
 }
 
-body{
+body {
     background-color: #b6e5e5;
 }
-.toc_body li{
+
+.toc_body li {
     list-style: none;
 }
-.parent-image img{
-    width:30rem;
+
+.parent-image img {
+    width: 30rem;
 
 }
-.intro{
+
+.intro {
     color: rebeccapurple;
     font-size: 2rem;
     text-align: center;
-    margin : auto;
+    margin: auto;
 }
-.intro-sibling{
+
+.intro-sibling {
     color: rebeccapurple;
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
     padding: 5px;
 }
-.editorial-intro{
-color: darkblue;
+
+.editorial-intro {
+    color: darkblue;
     font-size: 1.5rem;
 }
-.editorial-intro p{
-    margin: 2rem 0 ;
+
+.editorial-intro p {
+    margin: 2rem 0;
 }
-.parent-image{ width: max-content;
+
+.parent-image {
+    width: max-content;
     border: darkred 1px solid;
     float: right;
     margin: 2rem;
     position: relative;
-}.parent-image:hover .tooltip{
+}
+
+.parent-image:hover .tooltip {
     visibility: visible;
- }
-.tooltip{
+}
+
+.tooltip {
     background-color: white;
     padding: 3px;
     position: absolute;
@@ -115,11 +137,13 @@ color: darkblue;
     text-align: center;
     visibility: hidden;
 }
-.quotes-parent{
+
+.quotes-parent {
     margin: auto;
     width: 50%;
 }
-.quotes-parent i{
+
+.quotes-parent i {
     color: darkblue;
     font-size: 1.5rem;
     width: 30%;
@@ -128,40 +152,144 @@ color: darkblue;
 
 
 }
-.grand-parent-header{
 
-    height: min-content;
+.grand-parent-header {
+
     display: flex;
-    align-items: flex-end;
+
+    align-items: center !important;
+
     justify-content: space-between;
+    margin-top: 3rem;
+    align-content: center;
 }
-.header-parent{
-    position: relative;
-height: 45vh;
+
+.header-parent {
+/ / position: relative;
+    max-height: 20rem;
     width: 45%;
+/ / align-self: center;
 }
-.toc_front{
+
+.toc_front {
     color: rebeccapurple;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 10px;
 }
-.shakespeare-img{
-    height: 45vh;
+
+.shakespeare-img {
+
+    align-self: stretch;
+    max-height: 40rem;
+/ / min-height: 20 rem;
     width: 45%;
     position: relative;
+    overflow: hidden;
 
 }
-.shakespeare-img img{
+
+.shakespeare-img img {
     width: auto;
     height: 100%;
     position: absolute;
     right: 0;
-    top: 0;
+    bottom: 0;
+    display: block;
 
 }
-.speaker{
+
+.speaker {
     font-weight: bold;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1500px) {
+    /* Adjust styles for smaller screens */
+    .grand-parent-header {
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .shakespeare-img {
+        align-self: center;
+        max-height: 40rem;
+    / / min-height: 20 rem;
+        width: 60%;
+        position: static;
+
+        overflow: hidden;
+
+    }
+
+    .header-parent {
+
+        max-height: none;
+        width: 60%;
+
+    }
+
+    .shakespeare-img img {
+        width: 100%;
+        height: auto;
+        position: static;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1150px) {
+    /* Adjust styles for smaller screens */
+    .parent-image {
+        border: darkred 1px solid;
+        float: none;
+        width: 100%;
+        margin: 2rem 0;
+        position: static;
+        overflow: hidden;
+    }
+
+    .parent-image img {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        max-height: 50vh;
+        display: block;
+        position: static;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .shakespeare-img, .header-parent {
+
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .parent-article {
+        width: 95%;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    /* Adjust styles for smaller screens */
+    #first-link {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+
 }
