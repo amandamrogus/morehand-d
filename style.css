@@ -144,6 +144,7 @@ body {
 }
 
 .quotes-parent i {
+    /*//new commit*/
     color: darkblue;
     font-size: 1.5rem;
     width: 30%;
