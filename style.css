@@ -168,7 +168,7 @@ body {
 .header-parent {
 / / position: relative;
     max-height: 20rem;
-    width: 45%;
+    width: 30%;
 / / align-self: center;
 }
 
@@ -185,7 +185,7 @@ body {
     align-self: stretch;
     max-height: 40rem;
 / / min-height: 20 rem;
-    width: 45%;
+    width: 30%;
     position: relative;
     overflow: hidden;
 
@@ -206,7 +206,7 @@ body {
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
     /* Adjust styles for smaller screens */
     .grand-parent-header {
         gap: 3rem;
