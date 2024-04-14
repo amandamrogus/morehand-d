@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
- //border: 1px solid red;
+ border: 1px solid red;
 }
 
 .stdheader {
@@ -23,17 +23,51 @@
 
 .non-speaker:hover .reg {
     display: inline;
+    background-color: pink;
 }
 
 .non-speaker:hover .orig {
     display: none;
 }
-
-
-.speaker:hover .reg {
-    display: block;
+.speaker{
+    padding-top: 1rem;
 }
 
+.speaker:hover .reg {
+    background-color: pink;
+    display: block;
+    width: min-content;
+}
+.note-parent{
+    position: relative;
+
+}
+.note-parent:hover .note-box{
+    display: block;
+}
+.note-box{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    display: none;
+    padding: 1rem;
+    width: 15rem;
+    //max-width: 10rem;
+    background-color: tan;
+
+
+
+}
+.note {
+    padding: 2px;
+    margin-left: 4px;
+    background-color:  tan;
+    border-radius: 1px;
+    border: 1px solid rebeccapurple;
+}
+.note i{
+    color :pink;
+}
 .reg {
     display: none;
 }
@@ -73,31 +107,56 @@
     border: 1px darkblue solid;
 
 }
+.important-notes-title{
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.important-notes{
+
+    padding-top: 1rem;
+}
+.important-notes * {
+    padding-top: .3rem;
+
+}
 .parent-article {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
 }
 
 body {
     background-color: #b6e5e5;
 }
+.archive-photo img{
+    width: 30rem;
+
+}
+
 
 .toc_body li {
     list-style: none;
 }
-
-.parent-image img {
-    width: 30rem;
-
+.parent-citation-image div{
+    display: flex;
+    justify-content: space-between;
 }
+
+.citation-image img {
+
+    width:20rem;
+    display: block;
+}
+
 
 .intro {
     color: rebeccapurple;
     font-size: 2rem;
     text-align: center;
     margin: auto;
+    padding: 0 1rem 1rem;
 }
 
 .intro-sibling {
@@ -124,11 +183,16 @@ body {
     margin: 2rem;
     position: relative;
 }
-
 .parent-image:hover .tooltip {
     visibility: visible;
 }
-
+.parent-citation-image{
+    display: flex;
+    margin: auto;
+    justify-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .tooltip {
     background-color: white;
     padding: 3px;
@@ -315,4 +379,13 @@ body {
     }
 
 
+}
+.transcription-section{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+.citation-image{
+    width: 40%;
 }
