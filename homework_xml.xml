@@ -3,7 +3,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
         schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +17,6 @@
                     <name>
                         <persName>Amanda Marie Rogus</persName>
                     </name>
-                    s
                 </editor>
             </titleStmt>
             <publicationStmt>
@@ -167,7 +165,7 @@
                             <orig>a[t]</orig>
                             <reg>at</reg>
                         </choice>
-                        a
+
                         <choice>
                             <orig>harry</orig>
                             <reg>hairy</reg>
@@ -230,16 +228,6 @@
                 </sp>
 
                 <sp who="Lincoln">
-                    <speaker>
-                        <hi rend="caps">
-                            <name type="person" ref="#Lincoln">
-                                <choice>
-                                    <orig>linco</orig>
-                                    <reg>lincoln</reg>
-                                </choice>
-                            </name>
-                        </hi>
-                    </speaker>
                     <p>our
                         <choice>
                             <orig>Countrie</orig>
@@ -2773,7 +2761,8 @@
                             </placeName>
                             or
                             <placeName>flanders</placeName>
-                            to any <placeName>larman</placeName>
+                            to any
+                            <placeName>larman</placeName>
                             <choice>
                                 <orig>p[ro]vince</orig>
                                 <reg>province</reg>
@@ -3168,6 +3157,7 @@
                     </sp>
                 </div>
             </div>
+
 
             <div>
                 <head>Performance Edition
@@ -3644,6 +3634,12 @@
                 </div>
 
                 <div>
+
+
+
+
+
+                    ++++++++++++++++++
                     <head>Harley MS 7368, folio 9 recto</head>
 
                     <sp who="Ensemble">
@@ -3752,220 +3748,230 @@
                     </sp>
                 </div>
             </div>
-        </body>
-        <back>
-            <div type="editorial">
-            <note>
-            <p>Due to the context and position of this line on the page, scholars often feel that these
-                three pages may actually be an insert or revision forum from the initial comments by playwright
-                <name>Anthony Munday</name>
-            </p>
-            </note>
-            </div>
-            <ref target="Munday_Edits">
-                <bibl>
-                    <title>The Booke of Sir Thomas More and Its Problems</title>
-                    <author>
-                        <name>R.C. Bald</name>
-                    </author>
-                    <publisher>Cambridge University Press</publisher>
-                    <date>1949</date>
-                </bibl>
-                <ref/>
-                <note>
-                    <p>Lines such as this make scholars question the goal of constructing this dramatic work. Clearly,
-                        this contextually frames it as a non biographic work, but the drama has its own unique sense of
-                        stichomythia and overlapping that makes it appear as more than a story to the audience
-                        observing.
-                    </p>
-                    <ref target="Biography?">
-                        <bibl>
-                            <title>Shakespeare's Hand in the Play of Sir Thomas More</title>
-                            <author>
-                                <name>Alfred W. Pollard</name>
-                            </author>
-                            <publisher>Cambridge University Press</publisher>
-                            <date>1923</date>
-                        </bibl>
-                    </ref>
-                </note>
-                <note>
-                    <p>This edit comes from <name>W.W.Greg's</name> notes from the edition published by the Malone
-                        Society unpacking
-                        the details of what is happening in the play contextually. <name>Edward Maunde Thompson</name> listened
-                        to Greg
-                        in this particular instance, but it is clear that his transcription is seeking a different
-                        audience
-                        than the explantory venture in the facsimile made in 1844.
-                    </p>
-                    <ref target="Thompson_Transcription">
-                        <bibl>
-                            <title>Shakespeare's Handwriting: A Study</title>
-                            <author>
-                                <name>Edward Maunde Thompson</name>
-                            </author>
-                            <publisher>Oxford University Press</publisher>
-                            <date>1916</date>
-                        </bibl>
-                    </ref>
-                </note>
-                <note>
-                    <p>Brilliant stage actor <name>Sir Ian McKellen</name> discusses the rhythm of this line and how it
-                        speaks
-                        to a greater sense of Shakespearean rhetoric when compared to his other dramas showing yet more
-                        proof now in
-                        the performative realm that this is indeed a text of the great <name>William Shakespeare</name>.
-                    </p>
-                    <ref target="McKellen_Notes">
-                        <bibl>
-                            <title>Sir Thomas More</title>
-                            <author>
-                                <name>Sir Ian McKellen</name>
-                            </author>
-                            <publisher>Ian McKellen Stage</publisher>
-                            <date>2012</date>
-                        </bibl>
-                    </ref>
-                </note>
-                <note>
-                    <p>Framing the note to the performer in this way may appear to be a bit direct from a playwright to
-                        the
-                        modern eye but in early modern England there were no directors so notes this direct were
-                        actually quite
-                        common to see in manuscripts.
-                    </p>
-                    <ref target="Theatre_Directions">
-                        <bibl>
-                            <title>The Elizabethan Theatre and the Book of Sir Thomas More</title>
-                            <author>
-                                <name>Scott McMilin</name>
-                            </author>
-                            <publisher>Cornell University Press</publisher>
-                            <date>1987</date>
-                        </bibl>
-                    </ref>
-                </note>
 
-                <listPerson>
-                    <person xml:id="More" role="fictional" sex="m">
-                        <persName>
-                            <surname>More</surname>
-                            <forename>Thomas</forename>
-                        </persName>
-                        <note>
-                            <p>The protagonist of the play. He is the sheriff who also serves as a high level member of
-                                the local church.
-                            </p>
-                        </note>
-                    </person>
+
+        </body>
+
+        <back>
+
+            <note>
+                <p>Due to the context and position of this line on the page, scholars often feel that these
+                    three pages may actually be an insert or revision forum from the initial comments by playwright
+                    <name>Anthony Munday</name>
+                </p>
+                <ref target="Munday_Edits">
+                    <bibl>
+                        <title>The Booke of Sir Thomas More and Its Problems</title>
+                        <author>
+                            <name>R.C. Bald</name>
+                        </author>
+                        <publisher>Cambridge University Press</publisher>
+                        <date>1949</date>
+                    </bibl>
+                    <ref/>
+                    <note>
+                        <p>Lines such as this make scholars question the goal of constructing this dramatic work.
+                            Clearly,
+                            this contextually frames it as a non biographic work, but the drama has its own unique sense
+                            of
+                            stichomythia and overlapping that makes it appear as more than a story to the audience
+                            observing.
+                        </p>
+                        <ref target="Biography?">
+                            <bibl>
+                                <title>Shakespeare's Hand in the Play of Sir Thomas More</title>
+                                <author>
+                                    <name>Alfred W. Pollard</name>
+                                </author>
+                                <publisher>Cambridge University Press</publisher>
+                                <date>1923</date>
+                            </bibl>
+                        </ref>
+                    </note>
+                    <note>
+                        <p>This edit comes from <name>W.W.Greg's</name> notes from the edition published by the Malone
+                            Society unpacking
+                            the details of what is happening in the play contextually. <name>Edward Maunde Thompson
+                            </name> listened
+                            to Greg
+                            in this particular instance, but it is clear that his transcription is seeking a different
+                            audience
+                            than the explantory venture in the facsimile made in 1844.
+                        </p>
+                        <ref target="Thompson_Transcription">
+                            <bibl>
+                                <title>Shakespeare's Handwriting: A Study</title>
+                                <author>
+                                    <name>Edward Maunde Thompson</name>
+                                </author>
+                                <publisher>Oxford University Press</publisher>
+                                <date>1916</date>
+                            </bibl>
+                        </ref>
+                    </note>
+                    <note>
+                        <p>Brilliant stage actor <name>Sir Ian McKellen</name> discusses the rhythm of this line and how
+                            it
+                            speaks
+                            to a greater sense of Shakespearean rhetoric when compared to his other dramas showing yet
+                            more
+                            proof now in
+                            the performative realm that this is indeed a text of the great <name>William
+                                Shakespeare</name>.
+                        </p>
+                        <ref target="McKellen_Notes">
+                            <bibl>
+                                <title>Sir Thomas More</title>
+                                <author>
+                                    <name>Sir Ian McKellen</name>
+                                </author>
+                                <publisher>Ian McKellen Stage</publisher>
+                                <date>2012</date>
+                            </bibl>
+                        </ref>
+                    </note>
+                    <note>
+                        <p>Framing the note to the performer in this way may appear to be a bit direct from a playwright
+                            to
+                            the
+                            modern eye but in early modern England there were no directors so notes this direct were
+                            actually quite
+                            common to see in manuscripts.
+                        </p>
+                        <ref target="Theatre_Directions">
+                            <bibl>
+                                <title>The Elizabethan Theatre and the Book of Sir Thomas More</title>
+                                <author>
+                                    <name>Scott McMilin</name>
+                                </author>
+                                <publisher>Cornell University Press</publisher>
+                                <date>1987</date>
+                            </bibl>
+                        </ref>
+                    </note>
+
                     <listPerson>
+                        <person xml:id="More" role="fictional" sex="m">
+                            <persName>
+                                <surname>More</surname>
+                                <forename>Thomas</forename>
+                            </persName>
+                            <note>
+                                <p>The protagonist of the play. He is the sheriff who also serves as a high level member
+                                    of
+                                    the local church.
+                                </p>
+                            </note>
+                        </person>
                         <listPerson>
-                            <person xml:id="Lincoln" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Lincoln</surname>
-                                    <forename>Unlisted</forename>
-                                </persName>
-                                <note>
-                                    <p>A town official who is rallying to gain higher power within the govering
-                                        organization.
-                                    </p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Betts" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Betts</surname>
-                                    <forename>Geo</forename>
-                                </persName>
-                                <note>
-                                    <p>The town mayor's assistant who always enters before him to ensure saftey and
-                                        clarity of thought.
-                                    </p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Shrewsberry" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Shrewsberry</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>The representative from Shrewsberry who often argues with Thomas More about his
-                                        ideas.
-                                    </p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Surrey" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Surrey</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>The representative from Surrey who almost always agrees with the mayor.</p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Williamson" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Williamson</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>The deputy director of finances for the town center business district.</p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Doll" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Doll</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>The deputy who follows More around like a puppy.</p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Mayor" role="fictional" sex="m">
-                                <persName>
-                                    <surname>Mayor</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>The leader of the town who often causes concern for those in the church.</p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Ensemble" role="fictional">
-                                <persName>
-                                    <surname>Ensemble</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>Minor characters in the town square that often serve as a crowd to rally.</p>
-                                </note>
-                            </person>
-                        </listPerson>
-                        <listPerson>
-                            <person xml:id="Servant" role="fictional">
-                                <persName>
-                                    <surname>Servant</surname>
-                                    <forename>Unmentioned</forename>
-                                </persName>
-                                <note>
-                                    <p>Minor character who delivers messages to and from the Mayor's office.</p>
-                                </note>
-                            </person>
+                            <listPerson>
+                                <person xml:id="Lincoln" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Lincoln</surname>
+                                        <forename>Unlisted</forename>
+                                    </persName>
+                                    <note>
+                                        <p>A town official who is rallying to gain higher power within the govering
+                                            organization.
+                                        </p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Betts" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Betts</surname>
+                                        <forename>Geo</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The town mayor's assistant who always enters before him to ensure saftey and
+                                            clarity of thought.
+                                        </p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Shrewsberry" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Shrewsberry</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The representative from Shrewsberry who often argues with Thomas More about
+                                            his
+                                            ideas.
+                                        </p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Surrey" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Surrey</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The representative from Surrey who almost always agrees with the mayor.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Williamson" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Williamson</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The deputy director of finances for the town center business district.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Doll" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Doll</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The deputy who follows More around like a puppy.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Mayor" role="fictional" sex="m">
+                                    <persName>
+                                        <surname>Mayor</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>The leader of the town who often causes concern for those in the church.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Ensemble" role="fictional">
+                                    <persName>
+                                        <surname>Ensemble</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>Minor characters in the town square that often serve as a crowd to rally.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
+                            <listPerson>
+                                <person xml:id="Servant" role="fictional">
+                                    <persName>
+                                        <surname>Servant</surname>
+                                        <forename>Unmentioned</forename>
+                                    </persName>
+                                    <note>
+                                        <p>Minor character who delivers messages to and from the Mayor's office.</p>
+                                    </note>
+                                </person>
+                            </listPerson>
                         </listPerson>
                     </listPerson>
-
                     <listBibl>
                         <listBibl>
                             <bibl>
@@ -4013,11 +4019,10 @@
                             </bibl>
                         </listBibl>
                     </listBibl>
-                </listPerson>
-            </ref>
+
+                </ref>
+            </note>
 
         </back>
     </text>
-</div>
-        </TEI>
-
+</TEI>
