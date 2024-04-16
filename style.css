@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
- border: 1px solid red;
+ //border: 1px solid red;
 }
 
 .stdheader {
@@ -19,7 +19,6 @@
 .speaker:hover .orig {
     display: none;
 }
-
 
 .non-speaker:hover .reg {
     display: inline;
@@ -141,13 +140,14 @@ body {
 }
 .parent-citation-image div{
     display: flex;
+    width: 100%;
+    gap: 1rem;
     justify-content: space-between;
 }
 
-.citation-image img {
 
-    width:20rem;
-    display: block;
+.citation-image img{
+    width: inherit;
 }
 
 
@@ -192,7 +192,11 @@ body {
     justify-self: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 70%;
+    align-self: center;
+    //background-color: deeppink;
 }
+
 .tooltip {
     background-color: white;
     padding: 3px;
@@ -201,7 +205,14 @@ body {
     text-align: center;
     visibility: hidden;
 }
+.next-page-style{
+    display: flex;
+    flex-direction: column;
 
+}.next-page-style p{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+ }
 .quotes-parent {
     margin: auto;
     width: 50%;
@@ -380,6 +391,7 @@ body {
 
 
 }
+
 .transcription-section{
     margin-top: 3rem;
     margin-left: auto;
@@ -387,5 +399,5 @@ body {
     width: max-content;
 }
 .citation-image{
-    width: 40%;
+    width: 100%;
 }
