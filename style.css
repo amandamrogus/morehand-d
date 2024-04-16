@@ -127,11 +127,19 @@
     margin-bottom: 10%;
 }
 #links-intro-cousin{
-    color: darkblue;font-size: 1.5rem;
+    color: darkblue;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 .links-style p, .links-style a{
-    color: darkblue;font-size: 1.5rem;
+    color: darkblue;
+    font-size: 1.5rem;
+
+
+}
+.links-style a{
+   display: inline-block;
+    text-overflow: inherit;
 
 }
 .links-style div{
@@ -410,7 +418,9 @@ body {
     .index-stye{
         padding: 1rem;
     }
-
+.nav-links{
+    width: inherit !important;
+}
 
 }
 .nav-links{
