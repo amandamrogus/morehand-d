@@ -84,7 +84,8 @@
     //text-shadow: 0 0 3px white;
     height: 100%;
     border: 1px rebeccapurple solid;
-    font-size: 4rem;
+    font-size: 5vw;
+    min-width: 2rem;
     color: rebeccapurple;
 }
 
@@ -411,6 +412,9 @@ body {
     }
 
 
+}
+.nav-links{
+    width: 100%;
 }
 
 .transcription-section{

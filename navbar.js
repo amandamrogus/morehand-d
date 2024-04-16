@@ -11,7 +11,7 @@ class Navbar extends HTMLElement {
 
     </head>
     <body >
-           <section class="common-background header-parent transcription-section">
+           <section class="nav-links common-background header-parent transcription-section">
         <ul class="toc toc_front">Other Links on this Website</ul>
         <ul> <li><a href="nextpage.html" >Click Here to Return to Top of This Page</a></li>
             <li class="toc">
