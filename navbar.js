@@ -13,15 +13,15 @@ class Navbar extends HTMLElement {
     <body >
            <section class="common-background header-parent transcription-section">
         <ul class="toc toc_front">Other Links on this Website</ul>
-        <ul>
+        <ul> <li><a href="nextpage.html" >Click Here to Return to Top of This Page</a></li>
             <li class="toc">
                 <a class="toc toc_0" href="index.html">
-                    Introductory Information on Paleography Project
+                   Click Here to Return to Home Page
                 </a>
             </li>
 
             <li><a href="transcription.html" >Rogus True Transcription of Hand D Pages</a></li>
-     <li><a href="nextpage.html" >got to nextpage</a></li>
+    <li><a href="links.html">Shakespearean Paleography Links</a></li>
         </ul>
     </section>
     </body>`

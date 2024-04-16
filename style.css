@@ -125,6 +125,17 @@
     margin-right: auto;
     margin-bottom: 10%;
 }
+#links-intro-cousin{
+    color: darkblue;font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.links-style p, .links-style a{
+    color: darkblue;font-size: 1.5rem;
+
+}
+.links-style div{
+    padding-bottom: .5rem;
+}
 
 body {
     background-color: #b6e5e5;
@@ -209,7 +220,15 @@ body {
     display: flex;
     flex-direction: column;
 
-}.next-page-style p{
+}
+.citation p{
+    color:darkblue;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.next-page-style p{
+     color:darkblue;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
  }
@@ -286,7 +305,9 @@ body {
     display: block;
     text-transform: uppercase;
 }
-
+#next-page-archive-photo{
+    margin: auto;
+}
 @media only screen and (max-width: 1205px) {
     /* Adjust styles for smaller screens */
     .grand-parent-header {
