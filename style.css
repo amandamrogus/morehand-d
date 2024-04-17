@@ -143,6 +143,13 @@
 
 }
 .links-style div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+
+}
+.links-style div{
     padding-bottom: .5rem;
 }
 
