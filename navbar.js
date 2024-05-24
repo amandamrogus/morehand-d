@@ -21,7 +21,10 @@ class Navbar extends HTMLElement {
             </li>
 
             <li><a href="transcription.html" >Rogus True Transcription of Hand D Pages</a></li>
+       <li><a href="TextualVariance.html">Hand D Textual Variance Reflection</a></li>
+    
     <li><a href="links.html">Shakespearean Paleography Links</a></li>
+    
         </ul>
     </section>
     </body>`
